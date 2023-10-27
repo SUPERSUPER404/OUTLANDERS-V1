@@ -1,0 +1,1 @@
+selected_sprite = noone;
