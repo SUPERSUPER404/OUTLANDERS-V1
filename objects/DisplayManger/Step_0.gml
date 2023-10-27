@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
- var camera = view_camera[0];
+var camera = view_camera[0];
  var mouse_x_from_center = (window_mouse_get_x() + window_get_width()/2)/16 - window_get_width()/16
  var mouse_y_from_center = (window_mouse_get_y() + window_get_height()/2)/16 - window_get_height()/16
 
@@ -89,4 +89,9 @@ if(mouse_wheel_down()) {
 	}
 	
 }
+
+
+
+
+
 
