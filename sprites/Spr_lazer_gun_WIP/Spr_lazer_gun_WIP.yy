@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7536cc36-b2ab-44c1-9e2a-e48056b61f5b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ddbda58e-6a9a-4dc1-8f85-274321b23327",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 64,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2fe13927-deb2-4a7a-a587-36d8c33a5edd","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f4c527ed-73c9-4d91-96c5-8db9b34045cb","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7536cc36-b2ab-44c1-9e2a-e48056b61f5b","path":"sprites/Spr_lazer_gun_WIP/Spr_lazer_gun_WIP.yy",},},},"Disabled":false,"id":"7a45615e-e447-433d-8131-ee00d4bef8dd","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ddbda58e-6a9a-4dc1-8f85-274321b23327","path":"sprites/Spr_lazer_gun_WIP/Spr_lazer_gun_WIP.yy",},},},"Disabled":false,"id":"67f220ff-4a02-4204-92db-ba9a1cce5ddd","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
