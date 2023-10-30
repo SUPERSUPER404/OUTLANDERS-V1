@@ -6,6 +6,10 @@
   "option_android_arch_arm64": true,
   "option_android_arch_armv7": false,
   "option_android_arch_x86_64": false,
+<<<<<<< HEAD
+=======
+  "option_android_attribute_allow_backup": false,
+>>>>>>> 587d0f138ac6e7cd2f13caf331385db45046ca5a
   "option_android_build_tools": "",
   "option_android_compile_sdk": "",
   "option_android_device_support": 0,
@@ -72,6 +76,10 @@
   "option_android_tools_from_version": false,
   "option_android_tv_banner": "${base_options_dir}/android/tv_banner.png",
   "option_android_tv_isgame": true,
+<<<<<<< HEAD
+=======
+  "option_android_tv_supports_leanback": true,
+>>>>>>> 587d0f138ac6e7cd2f13caf331385db45046ca5a
   "option_android_use_facebook": false,
   "option_android_version": "1.0.0.0",
 }
