@@ -39,6 +39,7 @@
     {"name":"inst_D4BC1C7","path":"rooms/Rm_mainroom/Rm_mainroom.yy",},
     {"name":"inst_54DA5C4B","path":"rooms/Rm_mainroom/Rm_mainroom.yy",},
     {"name":"inst_4BBEC1CF","path":"rooms/Rm_mainroom/Rm_mainroom.yy",},
+    {"name":"inst_4773071E","path":"rooms/Rm_mainroom/Rm_mainroom.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -90,6 +91,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_41D592E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Obj_Placeable","path":"objects/Obj_Placeable/Obj_Placeable.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":608.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_D4BC1C7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"DisplayManger","path":"objects/DisplayManger/DisplayManger.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":64.0,"y":64.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_54DA5C4B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_ui","path":"objects/obj_ui/obj_ui.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":256.0,"y":64.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4773071E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Obj_UI_Mouse","path":"objects/Obj_UI_Mouse/Obj_UI_Mouse.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":352.0,"y":64.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4BBEC1CF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_planet","path":"objects/obj_planet/obj_planet.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":832.0,"y":416.0,},
