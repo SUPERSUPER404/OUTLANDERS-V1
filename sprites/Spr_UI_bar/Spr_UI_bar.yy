@@ -4,7 +4,7 @@
   "name": "Spr_UI_bar",
   "bbox_bottom": 49,
   "bbox_left": 6,
-  "bbox_right": 1365,
+  "bbox_right": 1359,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1372,
+  "width": 1360,
 }
