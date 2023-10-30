@@ -29,6 +29,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"Obj_UI_Mouse","order":8,"path":"objects/Obj_UI_Mouse/Obj_UI_Mouse.yy",},
     {"name":"Path6","order":5,"path":"paths/Path6/Path6.yy",},
     {"name":"Path17","order":16,"path":"paths/Path17/Path17.yy",},
     {"name":"obj_planet","order":2,"path":"objects/obj_planet/obj_planet.yy",},
