@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "obj_laser_gun_green",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":53,"eventType":6,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":32,"eventType":5,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],

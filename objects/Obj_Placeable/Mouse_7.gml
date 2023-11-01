@@ -1,7 +1,7 @@
 
 
 if(global.instance_tower_to_build != noone) {
-	instance_create_depth(x-27, y-27, 0, global.instance_tower_to_build);
+	instance_create_depth(x, y, 0, global.instance_tower_to_build);
 	
 	
 	global.instance_tower_to_build = noone;
