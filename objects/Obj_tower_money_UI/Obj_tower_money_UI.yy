@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Spr_tower_money_WIP",
-    "path": "sprites/Spr_tower_money_WIP/Spr_tower_money_WIP.yy",
+    "name": "spr_tower_money_WIP",
+    "path": "sprites/spr_tower_money_WIP/spr_tower_money_WIP.yy",
   },
   "spriteMaskId": null,
   "visible": true,

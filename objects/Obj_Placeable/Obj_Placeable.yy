@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_Placeable",
+  "name": "obj_Placeable",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":10,"eventType":6,"isDnD":false,},
@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Spr_placable",
-    "path": "sprites/Spr_placable/Spr_placable.yy",
+    "name": "spr_placable",
+    "path": "sprites/spr_placable/spr_placable.yy",
   },
   "spriteMaskId": null,
   "visible": true,

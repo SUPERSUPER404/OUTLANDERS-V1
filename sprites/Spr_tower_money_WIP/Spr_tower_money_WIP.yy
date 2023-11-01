@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "Spr_tower_money_WIP",
+  "name": "spr_tower_money_WIP",
   "bbox_bottom": 31,
   "bbox_left": 2,
   "bbox_right": 30,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "Spr_tower_money_WIP",
+    "name": "spr_tower_money_WIP",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ae9254d1-11d6-484b-8063-d438a0f4e30e","path":"sprites/Spr_tower_money_WIP/Spr_tower_money_WIP.yy",},},},"Disabled":false,"id":"402f4797-c092-4c1d-9c5d-ef2ed307b226","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ae9254d1-11d6-484b-8063-d438a0f4e30e","path":"sprites/spr_tower_money_WIP/spr_tower_money_WIP.yy",},},},"Disabled":false,"id":"402f4797-c092-4c1d-9c5d-ef2ed307b226","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

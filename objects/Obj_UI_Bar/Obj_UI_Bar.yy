@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Spr_UI_bar",
-    "path": "sprites/Spr_UI_bar/Spr_UI_bar.yy",
+    "name": "spr_UI_bar",
+    "path": "sprites/spr_UI_bar/spr_UI_bar.yy",
   },
   "spriteMaskId": null,
   "visible": true,

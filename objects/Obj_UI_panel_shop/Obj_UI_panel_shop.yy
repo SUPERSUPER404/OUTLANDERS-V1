@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Spr_UI_Panel",
-    "path": "sprites/Spr_UI_Panel/Spr_UI_Panel.yy",
+    "name": "spr_UI_Panel",
+    "path": "sprites/spr_UI_Panel/spr_UI_Panel.yy",
   },
   "spriteMaskId": null,
   "visible": true,

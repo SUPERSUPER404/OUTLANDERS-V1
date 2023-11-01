@@ -16,13 +16,13 @@ if(device_mouse_check_button_pressed(0, mb_left)
 
 	global.Mythril -= 10;
 
-	with(Obj_Placeable) {
+	with(obj_Placeable) {
 		can_be_seen = true;
 	}
 
-	Obj_UI_Mouse.selected_sprite = Spr_lazer_gun_WIP;
+	obj_UI_Mouse.selected_sprite = spr_lazer_gun_WIP;
 	
-	global.instance_tower_to_build = Obj_real_tower_TEST;
+	global.instance_tower_to_build = obj_lazer_gun_tower;
 	
 	show_debug_message("POGGERS")	
 	

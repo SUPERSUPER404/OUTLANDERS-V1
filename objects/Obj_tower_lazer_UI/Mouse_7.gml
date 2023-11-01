@@ -5,4 +5,4 @@
 
 // Inherit the parent event
 event_inherited();
-global.instance_tower_to_build = Obj_real_tower_TEST;
+global.instance_tower_to_build = obj_lazer_gun_tower;

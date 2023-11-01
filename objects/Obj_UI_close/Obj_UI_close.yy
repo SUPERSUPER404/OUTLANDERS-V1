@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Spr_UI_close",
-    "path": "sprites/Spr_UI_close/Spr_UI_close.yy",
+    "name": "spr_UI_close",
+    "path": "sprites/spr_UI_close/spr_UI_close.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -2,12 +2,11 @@
 // You can write your code in this editor
 event_inherited();
 
-alarm[0] = room_speed * 0.5
 name = "lazer tower"
 level = 1;
 
 upgrade_price = 10;
 bullet_damage = 1;
 
-rate_of_fire = 0.2;
-radius = 150;
+shots_per_second = 1
+alarm[0] = room_speed / shots_per_second

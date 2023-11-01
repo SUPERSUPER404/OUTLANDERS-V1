@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "Spr_placable",
+  "name": "spr_placable",
   "bbox_bottom": 31,
   "bbox_left": 0,
   "bbox_right": 31,
@@ -56,7 +56,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "Spr_placable",
+    "name": "spr_placable",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -78,8 +78,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3a5b65d7-0677-49fd-b9b8-15bc3d7a50c2","path":"sprites/Spr_placable/Spr_placable.yy",},},},"Disabled":false,"id":"b1b45eed-c986-4e7a-abcb-b6a3941a88bf","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5ff52a81-5d8a-4a7b-82d2-750365e696f0","path":"sprites/Spr_placable/Spr_placable.yy",},},},"Disabled":false,"id":"9904c974-929a-4661-aec1-fc624848c07d","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3a5b65d7-0677-49fd-b9b8-15bc3d7a50c2","path":"sprites/spr_placable/spr_placable.yy",},},},"Disabled":false,"id":"b1b45eed-c986-4e7a-abcb-b6a3941a88bf","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5ff52a81-5d8a-4a7b-82d2-750365e696f0","path":"sprites/spr_placable/spr_placable.yy",},},},"Disabled":false,"id":"9904c974-929a-4661-aec1-fc624848c07d","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

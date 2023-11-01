@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_Real_money_tower_TEST",
+  "name": "obj_Mythril_tower",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
@@ -15,8 +15,8 @@
     "path": "folders/Objects/Towers.yy",
   },
   "parentObjectId": {
-    "name": "Obj_Tower_parent",
-    "path": "objects/Obj_Tower_parent/Obj_Tower_parent.yy",
+    "name": "obj_Tower_parent",
+    "path": "objects/obj_Tower_parent/obj_Tower_parent.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -36,8 +36,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "Spr_tower_money_WIP",
-    "path": "sprites/Spr_tower_money_WIP/Spr_tower_money_WIP.yy",
+    "name": "spr_tower_money_WIP",
+    "path": "sprites/spr_tower_money_WIP/spr_tower_money_WIP.yy",
   },
   "spriteMaskId": null,
   "visible": true,

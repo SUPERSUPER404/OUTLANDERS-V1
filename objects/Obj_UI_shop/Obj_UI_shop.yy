@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Spr_UI_shop",
-    "path": "sprites/Spr_UI_shop/Spr_UI_shop.yy",
+    "name": "spr_UI_shop",
+    "path": "sprites/spr_UI_shop/spr_UI_shop.yy",
   },
   "spriteMaskId": null,
   "visible": true,

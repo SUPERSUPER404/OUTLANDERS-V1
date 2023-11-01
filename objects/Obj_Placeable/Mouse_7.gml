@@ -7,13 +7,13 @@ if(global.instance_tower_to_build != noone) {
 	global.instance_tower_to_build = noone;
 	
 	
-	Obj_UI_Mouse.selected_sprite = noone;
+	obj_UI_Mouse.selected_sprite = noone;
 	
  instance_destroy(self);
 	
 	
 	
-	with(Obj_Placeable){
+	with(obj_Placeable){
 	can_be_seen = false;	
 	}
 }
