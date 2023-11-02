@@ -32,10 +32,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_lazer_gun_WIP",
-    "path": "sprites/spr_lazer_gun_WIP/spr_lazer_gun_WIP.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

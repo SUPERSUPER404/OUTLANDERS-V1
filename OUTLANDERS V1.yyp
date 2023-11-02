@@ -40,13 +40,12 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"UI","folderPath":"folders/Sprites/UI.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"group1","folderPath":"folders/Objects/group1.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.0.98",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"obj_UI_Mouse","path":"objects/obj_UI_Mouse/obj_UI_Mouse.yy",},},
@@ -72,6 +71,7 @@
     {"id":{"name":"spr_placable","path":"sprites/spr_placable/spr_placable.yy",},},
     {"id":{"name":"Path10","path":"paths/Path10/Path10.yy",},},
     {"id":{"name":"set_draw","path":"scripts/set_draw/set_draw.yy",},},
+    {"id":{"name":"obj_Bullet_player","path":"objects/obj_Bullet_player/obj_Bullet_player.yy",},},
     {"id":{"name":"Path2","path":"paths/Path2/Path2.yy",},},
     {"id":{"name":"spr_laser_red","path":"sprites/spr_laser_red/spr_laser_red.yy",},},
     {"id":{"name":"bg","path":"sprites/bg/bg.yy",},},
@@ -103,6 +103,7 @@
     {"id":{"name":"obj_makestuff","path":"objects/obj_makestuff/obj_makestuff.yy",},},
     {"id":{"name":"Path8","path":"paths/Path8/Path8.yy",},},
     {"id":{"name":"spr_tower_money_WIP","path":"sprites/spr_tower_money_WIP/spr_tower_money_WIP.yy",},},
+    {"id":{"name":"Spr_player_lazer","path":"sprites/Spr_player_lazer/Spr_player_lazer.yy",},},
     {"id":{"name":"Path16","path":"paths/Path16/Path16.yy",},},
     {"id":{"name":"Path7","path":"paths/Path7/Path7.yy",},},
     {"id":{"name":"Rm_mainroom","path":"rooms/Rm_mainroom/Rm_mainroom.yy",},},
@@ -111,7 +112,6 @@
     {"roomId":{"name":"Rm_makeStuff","path":"rooms/Rm_makeStuff/Rm_makeStuff.yy",},},
     {"roomId":{"name":"Rm_mainroom","path":"rooms/Rm_mainroom/Rm_mainroom.yy",},},
   ],
-  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],

@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "group1",
-    "path": "folders/Objects/group1.yy",
+    "name": "Base",
+    "path": "folders/Objects/Base.yy",
   },
   "parentObjectId": null,
   "persistent": false,

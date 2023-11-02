@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+other.hurt(_damage);
 
-alarm[0] = room_speed * 7
+instance_destroy();

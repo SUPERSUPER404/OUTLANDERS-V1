@@ -40,8 +40,22 @@ set_draw(1, c_white, function() {
 	 draw_text_ext_transformed(900 , 8 , "score " + string(global.score), 0, 200, 2, 2, 0)
 	 
 	 });
+	  //year
+	 set_draw(1, c_white, function() {
+	 align_set(fa_left, fa_middle);
+	 
+	 draw_text_ext_transformed(1200 , 8 , "Year " + string(global.year), 0, 200, 2, 2, 0)
+	 
+	 });
+	 
 	 
 	 
 draw_sprite_stretched(spr_lazer_gun_WIP, 0, display_get_gui_width() - 96, 96, 64, 64)
 draw_rectangle(display_get_gui_width() - 96, 96, display_get_gui_width() - 32, 96+64,true)
-draw_text(display_get_gui_width() - 120, 96+64+32, "Laser Turret\nCost: ")
+draw_text(display_get_gui_width() - 120, 96+64+32, "Laser Turret\nCost:10 ")
+
+
+draw_sprite_stretched(spr_tower_money_WIP, 0, display_get_gui_width() - 96, 220, 64, 64)
+draw_rectangle(display_get_gui_width() - 96, 220, display_get_gui_width() - 32, 220+64,true)
+draw_text(display_get_gui_width() - 120, 220+64+32, "Mine \nCost:50 ")
+

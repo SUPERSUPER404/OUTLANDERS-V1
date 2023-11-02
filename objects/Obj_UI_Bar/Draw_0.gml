@@ -35,10 +35,12 @@ set_draw(1, c_white, function() {
 	 
 	 });
 
-
+//score
 set_draw(1, c_white, function() {
 	 align_set(fa_left, fa_middle);
 	 
 	 draw_text_ext_transformed(900 , 8 , "score " + string(global.score), 0, 200, 2, 2, 0)
 	 
 	 });
+	 
+	 
