@@ -15,5 +15,6 @@ hurt = function(_amount = 1){
 	
 	if(hit_points <= 0){
 	instance_destroy();
+	global.score += 1 
 	}
 }

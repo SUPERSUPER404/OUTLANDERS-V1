@@ -9,13 +9,13 @@ if(device_mouse_check_button_pressed(0, mb_left)
 && device_mouse_y_to_gui(0) > 94
 && device_mouse_y_to_gui(0) < 160) {
 	
-	if (global.Mythril < 10){
+	if (global.Mythril < 50){
 		return	
 	}
 	
 
 
-	global.Mythril -= 10;
+	global.Mythril -= 50;
 
 	with(obj_Placeable) {
 		can_be_seen = true;

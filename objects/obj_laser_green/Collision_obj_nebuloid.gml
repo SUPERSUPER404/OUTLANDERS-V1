@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 
-other.hurt(.1);
+other.hurt(.05);
