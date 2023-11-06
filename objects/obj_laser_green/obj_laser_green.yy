@@ -11,8 +11,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Base",
-    "path": "folders/Objects/Base.yy",
+    "name": "Ammo",
+    "path": "folders/Objects/Ammo.yy",
   },
   "parentObjectId": null,
   "persistent": false,
