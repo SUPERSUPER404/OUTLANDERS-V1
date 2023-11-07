@@ -49,7 +49,7 @@
     {"name":"spr_laser_red","order":2,"path":"sprites/spr_laser_red/spr_laser_red.yy",},
     {"name":"bg","order":3,"path":"sprites/bg/bg.yy",},
     {"name":"Path11","order":10,"path":"paths/Path11/Path11.yy",},
-    {"name":"get_closest","order":2,"path":"scripts/get_closest/get_closest.yy",},
+    {"name":"instance_nearest_notme","order":2,"path":"scripts/instance_nearest_notme/instance_nearest_notme.yy",},
     {"name":"Path15","order":14,"path":"paths/Path15/Path15.yy",},
     {"name":"obj_richochet_tower","order":5,"path":"objects/obj_richochet_tower/obj_richochet_tower.yy",},
     {"name":"spr_UI_bar","order":2,"path":"sprites/spr_UI_bar/spr_UI_bar.yy",},

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "get_closest",
+  "name": "instance_nearest_notme",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

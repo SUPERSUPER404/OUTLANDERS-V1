@@ -23,29 +23,36 @@ target = collision_circle(x, y, radius, obj_nebuloid, false, true)
 			);
 			richochet -= 1
 			show_debug_message(richochet)
+			target.hit_points -= target.hit_points_max / 2
 		
 		}
-		while(richochet > 0) {
-			
-				nextTarget = instance_nearest(target.x, target.y, obj_nebuloid)
-				var inst = instance_create_layer(target.x, target.y, "Instances", obj_laser_red,
+		
+		while (richochet > 0) {
+		
+		var nextTarget = instance_nearest_notme(target.x, target.y, obj_nebuloid)
+		
+			if(nextTarget != noone) {
+				instance_create_layer(target.x, target.y, "Instances", obj_laser_red,
 				{ width : point_distance(target.x, target.y, nextTarget.x, nextTarget.y),
 				height : 8,
 				laser_spawn_x : target.x,
 				laser_spawn_y : target.y }
 				);
-				richochet -= 1
+				
+				nextTarget.hit_points -= nextTarget.hit_points_max / 2
+				show_debug_message(target.x)
+				show_debug_message(nextTarget.x)
 				target = nextTarget
-				show_debug_message(richochet)
-			
+				richochet -= 1
+	
 			}
-			
+		}
+		
 		richochet = 5
 		
-		}
 	}
 }
 
-
+}
 
 
