@@ -15,6 +15,7 @@ target = collision_circle(x, y, radius, obj_nebuloid, false, true)
 		alarm_set(2, room_speed / rate_of_fire);
 			
 		if(richochet == 5) {
+			
 			var inst = instance_create_layer(x, y, "Instances", obj_laser_red,
 			{ width : point_distance(self.x, self.y, target.x, target.y),
 			height : 8,
@@ -27,28 +28,7 @@ target = collision_circle(x, y, radius, obj_nebuloid, false, true)
 		
 		}
 		
-		while (richochet > 0) {
 		
-		var nextTarget = instance_nearest_notme(target.x, target.y, obj_nebuloid)
-		
-			if(nextTarget != noone) {
-				instance_create_layer(target.x, target.y, "Instances", obj_laser_red,
-				{ width : point_distance(target.x, target.y, nextTarget.x, nextTarget.y),
-				height : 8,
-				laser_spawn_x : target.x,
-				laser_spawn_y : target.y }
-				);
-				
-				nextTarget.hit_points -= nextTarget.hit_points_max / 2
-				show_debug_message(target.x)
-				show_debug_message(nextTarget.x)
-				target = nextTarget
-				richochet -= 1
-	
-			}
-		}
-		
-		richochet = 5
 		
 	}
 }
