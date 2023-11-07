@@ -9,7 +9,7 @@ level = 1;
 upgrade_price = 20;
 bullet_damage = 0.5;
 
-rate_of_fire = 0.2;
+rate_of_fire = 1;
 radius = 128;
 
 can_shoot = true;

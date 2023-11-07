@@ -5,6 +5,7 @@
     {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
     {"name":"Notes","order":13,"path":"folders/Notes.yy",},
     {"name":"Objects","order":9,"path":"folders/Objects.yy",},
+    {"name":"Ammo","order":9,"path":"folders/Objects/Ammo.yy",},
     {"name":"Base","order":4,"path":"folders/Objects/Base.yy",},
     {"name":"camera","order":8,"path":"folders/Objects/camera.yy",},
     {"name":"Enemies","order":5,"path":"folders/Objects/Enemies.yy",},
@@ -27,7 +28,6 @@
     {"name":"Towers","order":1,"path":"folders/Sprites/Towers.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"Ammo","order":9,"path":"folders/Objects/Ammo.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_UI_Mouse","order":5,"path":"objects/obj_UI_Mouse/obj_UI_Mouse.yy",},
@@ -49,6 +49,7 @@
     {"name":"spr_laser_red","order":2,"path":"sprites/spr_laser_red/spr_laser_red.yy",},
     {"name":"bg","order":3,"path":"sprites/bg/bg.yy",},
     {"name":"Path11","order":10,"path":"paths/Path11/Path11.yy",},
+    {"name":"get_closest","order":2,"path":"scripts/get_closest/get_closest.yy",},
     {"name":"Path15","order":14,"path":"paths/Path15/Path15.yy",},
     {"name":"obj_richochet_tower","order":5,"path":"objects/obj_richochet_tower/obj_richochet_tower.yy",},
     {"name":"spr_UI_bar","order":2,"path":"sprites/spr_UI_bar/spr_UI_bar.yy",},
