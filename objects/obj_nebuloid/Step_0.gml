@@ -2,8 +2,5 @@
 // You can write your code in this editor
 
 
-//if(self.x < -200 || self.x > room_width + 200) {
-	
-	//instance_destroy(self)
-
-//}
+if(hit_points <= 0)
+	instance_destroy(self)
