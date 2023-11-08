@@ -37,6 +37,7 @@
     {"name":"align_set","order":1,"path":"scripts/align_set/align_set.yy",},
     {"name":"obj_Tower_parent","order":3,"path":"objects/obj_Tower_parent/obj_Tower_parent.yy",},
     {"name":"Obj_UI_close","order":1,"path":"objects/Obj_UI_close/Obj_UI_close.yy",},
+    {"name":"enemy_instance_nearest","order":3,"path":"scripts/enemy_instance_nearest/enemy_instance_nearest.yy",},
     {"name":"spr_UI_close","order":1,"path":"sprites/spr_UI_close/spr_UI_close.yy",},
     {"name":"spr_UI_shop","order":3,"path":"sprites/spr_UI_shop/spr_UI_shop.yy",},
     {"name":"Obj_tower_lazer_UI","order":1,"path":"objects/Obj_tower_lazer_UI/Obj_tower_lazer_UI.yy",},

@@ -59,6 +59,7 @@
     {"id":{"name":"obj_Tower_parent","path":"objects/obj_Tower_parent/obj_Tower_parent.yy",},},
     {"id":{"name":"DisplayManger","path":"objects/DisplayManger/DisplayManger.yy",},},
     {"id":{"name":"Obj_UI_close","path":"objects/Obj_UI_close/Obj_UI_close.yy",},},
+    {"id":{"name":"enemy_instance_nearest","path":"scripts/enemy_instance_nearest/enemy_instance_nearest.yy",},},
     {"id":{"name":"spr_UI_close","path":"sprites/spr_UI_close/spr_UI_close.yy",},},
     {"id":{"name":"spr_UI_shop","path":"sprites/spr_UI_shop/spr_UI_shop.yy",},},
     {"id":{"name":"spr_invis","path":"sprites/spr_invis/spr_invis.yy",},},
