@@ -48,7 +48,7 @@ set_draw(1, c_white, function() {
 	 
 	 });
 	 
-	 
+//Shop 1
 if(global.shop_number == 1) {
 // Laser Gun 
 draw_sprite_stretched(spr_lazer_gun_WIP, 0, display_get_gui_width() - 96, 96, 64, 64)
@@ -73,4 +73,19 @@ draw_text(display_get_gui_width() - 120, 334+64+32, "Richochet \nCost: 100")
 draw_rectangle(display_get_gui_width() - 96 - 16, display_get_gui_height() - 64, display_get_gui_width() - 16, display_get_gui_height() - 16,true)
 draw_text_transformed(display_get_gui_width() - 104, display_get_gui_height() - 38, "NEXT", 2, 2, 0)
 
+}
+	
+	
+// Shop 2
+if(global.shop_number == 2) {
+	
+	//Next
+	draw_rectangle(display_get_gui_width() - (112-16)/2 - 16, display_get_gui_height() - 64, display_get_gui_width() - 16, display_get_gui_height() - 16,true)
+	draw_text_transformed(display_get_gui_width() - 57, display_get_gui_height() - 38, "NEXT", 1, 1, 0)
+	
+	//Back
+	draw_rectangle(display_get_gui_width() - 112, display_get_gui_height() - 64, display_get_gui_width() - (112-16)/2 - 16, display_get_gui_height() - 16,true)
+	draw_text_transformed(display_get_gui_width() - 109, display_get_gui_height() - 38, "BACK", 1, 1, 0)
+	
+	
 }

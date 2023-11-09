@@ -17,4 +17,4 @@ target = noone;
 hover = false;
 alarm_set(1,1);
 
-richochet = 5
+richochet = 10
