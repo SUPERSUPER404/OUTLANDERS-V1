@@ -1,16 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Bullet_player",
+  "name": "obj_galactron_spawner",
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_nebuloid","path":"objects/obj_nebuloid/obj_nebuloid.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Ammo",
-    "path": "folders/Objects/Ammo.yy",
+    "name": "Spawners",
+    "path": "folders/Objects/Spawners.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Spr_player_lazer",
-    "path": "sprites/Spr_player_lazer/Spr_player_lazer.yy",
+    "name": "spr_galactron",
+    "path": "sprites/spr_galactron/spr_galactron.yy",
   },
   "spriteMaskId": null,
   "visible": true,

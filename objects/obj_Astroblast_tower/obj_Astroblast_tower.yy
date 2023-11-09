@@ -1,18 +1,18 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_nebuloid_spawner",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
-  ],
+  "name": "obj_Astroblast_tower",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Spawners",
-    "path": "folders/Objects/Spawners.yy",
+    "name": "Towers",
+    "path": "folders/Objects/Towers.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_Tower_parent",
+    "path": "objects/obj_Tower_parent/obj_Tower_parent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -28,10 +28,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_nebuloid",
-    "path": "sprites/spr_nebuloid/spr_nebuloid.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

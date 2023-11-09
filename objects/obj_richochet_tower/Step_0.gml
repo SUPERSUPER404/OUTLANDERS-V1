@@ -20,23 +20,23 @@ else {
 		
 			if(i == 0) {
 				
-				nextTarget = instance_nearest_notme(self.x, self.y, obj_nebuloid, target, instance_array, i)
-				var inst = instance_create_layer(x, y - 22, "Instances", obj_laser_red,
-				{ width : point_distance(self.x, self.y - 22, nextTarget.x, nextTarget.y),
+				nextTarget = instance_nearest_notme(self.x, self.y, obj_enemy, target, instance_array, i)
+				var inst = instance_create_layer(x, y - 20, "Instances", obj_laser_red,
+				{ width : point_distance(self.x, self.y - 20, nextTarget.x, nextTarget.y),
 				height : 8,
 				laser_spawn_x : self.x,
-				laser_spawn_y : self.y - 22,
-				image_angle : point_direction(self.x, self.y- 22, nextTarget.x, nextTarget.y) }
+				laser_spawn_y : self.y - 20,
+				image_angle : point_direction(self.x, self.y- 20, nextTarget.x, nextTarget.y) }
 				);
 				show_debug_message(richochet)
-				nextTarget.hit_points -= 0.5
+				nextTarget.hit_points -= bullet_damage
 			
 			}
 			
 			else {
 				instance_array[i] = instance_number(target)
 				
-				nextTarget = instance_nearest_notme(target.x, target.y, obj_nebuloid, target, instance_array, i)
+				nextTarget = instance_nearest_notme(target.x, target.y, obj_enemy, target, instance_array, i)
 				
 				instance_create_layer(target.x, target.y, "Instances", obj_laser_red,
 				{ width: point_distance(target.x, target.y, nextTarget.x, nextTarget.y),
@@ -47,7 +47,7 @@ else {
 				);
 				
 				if(nextTarget != noone)
-					nextTarget.hit_points -= 0.5
+					nextTarget.hit_points -= bullet_damage
 					
 				show_debug_message(nextTarget.x)
 				

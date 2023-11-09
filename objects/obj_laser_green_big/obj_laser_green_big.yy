@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_laser_green",
+  "name": "obj_laser_green_big",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
@@ -36,8 +36,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_laser_green",
-    "path": "sprites/spr_laser_green/spr_laser_green.yy",
+    "name": "spr_laser_green_big",
+    "path": "sprites/spr_laser_green_big/spr_laser_green_big.yy",
   },
   "spriteMaskId": null,
   "visible": true,

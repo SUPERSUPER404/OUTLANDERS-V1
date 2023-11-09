@@ -7,7 +7,7 @@ name = "Richochet Tower"
 level = 1;
 
 upgrade_price = 20;
-bullet_damage = 0.5;
+bullet_damage = 25;
 
 rate_of_fire = 1;
 radius = 128;
@@ -17,4 +17,4 @@ target = noone;
 hover = false;
 alarm_set(1,1);
 
-richochet = 10
+richochet = 8

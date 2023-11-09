@@ -1,7 +1,68 @@
 /// @description Insert description here
 // You can write your code in this editor
+canChangeShop = true
 
-if(global.shop_number == 1) {
+if(global.shop_number == 3) {
+	
+	//Back
+	if(device_mouse_check_button_pressed(0, mb_left) 
+	&& device_mouse_x_to_gui(0) > 1253
+	&& device_mouse_x_to_gui(0) < 1302
+	&& device_mouse_y_to_gui(0) > display_get_gui_height() - 64
+	&& device_mouse_y_to_gui(0) < display_get_gui_height() - 16
+	&& canChangeShop) {
+	
+		global.shop_number --
+		canChangeShop = false
+	
+	}
+	
+	//Next
+	if(device_mouse_check_button_pressed(0, mb_left) 
+	&& device_mouse_x_to_gui(0) > 1302
+	&& device_mouse_x_to_gui(0) < 1352
+	&& device_mouse_y_to_gui(0) > display_get_gui_height() - 64
+	&& device_mouse_y_to_gui(0) < display_get_gui_height() - 16
+	&& canChangeShop) {
+	
+	global.shop_number ++
+	canChangeShop = false
+	
+	}
+	
+}
+
+if(global.shop_number == 2) {
+	
+	//Back
+	if(device_mouse_check_button_pressed(0, mb_left) 
+	&& device_mouse_x_to_gui(0) > 1253
+	&& device_mouse_x_to_gui(0) < 1302
+	&& device_mouse_y_to_gui(0) > display_get_gui_height() - 64
+	&& device_mouse_y_to_gui(0) < display_get_gui_height() - 16
+	&& canChangeShop) {
+	
+		global.shop_number --
+		canChangeShop = false
+	
+	}
+	
+	//Next
+	if(device_mouse_check_button_pressed(0, mb_left) 
+	&& device_mouse_x_to_gui(0) > 1302
+	&& device_mouse_x_to_gui(0) < 1352
+	&& device_mouse_y_to_gui(0) > display_get_gui_height() - 64
+	&& device_mouse_y_to_gui(0) < display_get_gui_height() - 16
+	&& canChangeShop) {
+	
+	global.shop_number ++
+	canChangeShop = false
+	
+	}
+	
+}
+
+if(global.shop_number == 1 && canChangeShop) {
 //lazer gun
 if(device_mouse_check_button_pressed(0, mb_left) 
 && device_mouse_x_to_gui(0) > 1240 
@@ -91,39 +152,6 @@ if(device_mouse_check_button_pressed(0, mb_left)
 	}
 
 }
-/*
-if(global.shop_number == 2) {
-	
-	//Next
-	if(device_mouse_check_button_pressed(0, mb_left) 
-	&& device_mouse_x_to_gui(0) > 1253
-	&& device_mouse_x_to_gui(0) < 1302
-	&& device_mouse_y_to_gui(0) > display_get_gui_height() - 64
-	&& device_mouse_y_to_gui(0) < display_get_gui_height() - 16
-	&& canChangeShop) {
-	
-		global.shop_number ++
-		canChangeShop = false
-		alarm[2] = room_speed * 0.25
-	
-	}
-	
-	//Back
-	if(device_mouse_check_button_pressed(0, mb_left) 
-	&& device_mouse_x_to_gui(0) > 1302
-	&& device_mouse_x_to_gui(0) < 1352
-	&& device_mouse_y_to_gui(0) > display_get_gui_height() - 64
-	&& device_mouse_y_to_gui(0) < display_get_gui_height() - 16
-	&& canChangeShop) {
-	
-	global.shop_number --
-	canChangeShop = false
-	alarm[2] = room_speed * 0.25
-	
-	}
-	
-}
-
-show_debug_message(device_mouse_x_to_gui(0))
 
 
+show_debug_message(global.shop_number)
