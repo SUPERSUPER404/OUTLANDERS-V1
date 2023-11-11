@@ -4,7 +4,7 @@
   "name": "spr_UI_bar",
   "bbox_bottom": 49,
   "bbox_left": 0,
-  "bbox_right": 1365,
+  "bbox_right": 1371,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,

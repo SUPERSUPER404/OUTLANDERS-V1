@@ -23,11 +23,13 @@ if(mouse_check_button(mb_left) && in_bounds) {
 	&& camera_get_view_x(camera) - x_delta + camera_get_view_width(camera) < room_width 
 	&& camera_get_view_y(camera) - y_delta > 0 
 	&& camera_get_view_y(camera) - y_delta + camera_get_view_height(camera) < room_height) {
-	camera_set_view_pos(
+		
+		camera_set_view_pos(
 		camera, 
 		camera_get_view_x(camera) - x_delta, 
 		camera_get_view_y(camera) - y_delta
 		);
+		
 	}
 	else {
 		in_bounds = false;
