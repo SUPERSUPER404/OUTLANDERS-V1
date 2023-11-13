@@ -63,6 +63,10 @@ if(global.shop_number == 2) {
 }
 
 if(global.shop_number == 1 && canChangeShop) {
+	
+	
+	
+	
 //lazer gun
 if(device_mouse_check_button_pressed(0, mb_left) 
 && device_mouse_x_to_gui(0) > 1240 
@@ -87,6 +91,10 @@ if(device_mouse_check_button_pressed(0, mb_left)
 	global.instance_tower_to_build = obj_lazer_gun_tower;	
 	
 }
+
+
+
+
 //Mine
 
 if(device_mouse_check_button_pressed(0, mb_left) 
@@ -113,6 +121,9 @@ if(device_mouse_check_button_pressed(0, mb_left)
 	
 }
 
+
+
+
 // Richochet
 if(device_mouse_check_button_pressed(0, mb_left) 
 && device_mouse_x_to_gui(0) > 1240 
@@ -120,7 +131,7 @@ if(device_mouse_check_button_pressed(0, mb_left)
 && device_mouse_y_to_gui(0) > 334
 && device_mouse_y_to_gui(0) < 334 + 64) {
 	
-	if (global.Mythril < 50){
+	if (global.Mythril < 100){
 		return	
 	}
 	
@@ -137,6 +148,43 @@ if(device_mouse_check_button_pressed(0, mb_left)
 	global.instance_tower_to_build = obj_richochet_tower;
 	
 }
+
+
+
+
+
+//slow tower
+if(device_mouse_check_button_pressed(0, mb_left) 
+&& device_mouse_x_to_gui(0) > 1240 
+&& device_mouse_x_to_gui(0) < 1340
+&& device_mouse_y_to_gui(0) > 446
+&& device_mouse_y_to_gui(0) < 510) {
+	
+	if (global.Mythril < 50){
+		return	
+	}
+	
+
+
+	global.Mythril -= 50;
+
+	with(obj_Placeable) {
+		can_be_seen = true;
+	}
+
+	obj_UI_Mouse.selected_sprite = Spr_tower_slow;
+	
+	global.instance_tower_to_build = Obj_slow_tower;	
+	
+}
+
+
+
+
+
+
+
+
 
 // Next
 if(device_mouse_check_button_pressed(0, mb_left) 

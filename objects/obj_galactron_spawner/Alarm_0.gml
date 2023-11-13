@@ -5,4 +5,4 @@ galactron.hspeed = 6
 loop = loop + 1
 }
 loop = 0;
-alarm[0] = room_speed * 0.25
+alarm[0] = room_speed * 0.5

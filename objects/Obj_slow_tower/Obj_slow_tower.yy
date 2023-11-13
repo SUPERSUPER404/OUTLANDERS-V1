@@ -1,18 +1,21 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Bullet_player",
+  "name": "Obj_slow_tower",
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Ammo",
-    "path": "folders/Objects/Ammo.yy",
+    "name": "Towers",
+    "path": "folders/Objects/Towers.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_Tower_parent",
+    "path": "objects/obj_Tower_parent/obj_Tower_parent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Spr_player_lazer",
-    "path": "sprites/Spr_player_lazer/Spr_player_lazer.yy",
+    "name": "Spr_tower_slow",
+    "path": "sprites/Spr_tower_slow/Spr_tower_slow.yy",
   },
   "spriteMaskId": null,
   "visible": true,

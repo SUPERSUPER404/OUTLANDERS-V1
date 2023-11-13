@@ -1,9 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Bullet_player",
+  "name": "Obj_bullet_slow",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
@@ -29,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Spr_player_lazer",
-    "path": "sprites/Spr_player_lazer/Spr_player_lazer.yy",
+    "name": "Spr_slow_feild",
+    "path": "sprites/Spr_slow_feild/Spr_slow_feild.yy",
   },
   "spriteMaskId": null,
   "visible": true,

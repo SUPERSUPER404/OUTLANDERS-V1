@@ -68,9 +68,11 @@ draw_rectangle(display_get_gui_width() - 96, 344, display_get_gui_width() - 32, 
 draw_text(display_get_gui_width() - 120, 334+64+32, "Richochet \nCost: 100")
 
 
-// Tower 4
+// slow tower
 draw_rectangle(display_get_gui_width() - 96, 468, display_get_gui_width() - 32, 468+64,true)
-
+draw_sprite_stretched(Spr_tower_slow, 0, display_get_gui_width() - 96, 220 + (344-96), 64, 64)
+draw_rectangle(display_get_gui_width() - 96, 468, display_get_gui_width() - 32, 468+64,true)
+draw_text(display_get_gui_width() - 120, 468+64+32, "Slow \nCost: 50")
 
 // Tower 5
 draw_rectangle(display_get_gui_width() - 96, 592, display_get_gui_width() - 32, 592+64,true)
