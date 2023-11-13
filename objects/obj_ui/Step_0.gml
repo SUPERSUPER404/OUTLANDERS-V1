@@ -82,7 +82,7 @@ if(device_mouse_check_button_pressed(0, mb_left)
 
 	global.Mythril -= 50;
 
-	with(obj_Placeable) {
+	with(obj_Placeable_main) {
 		can_be_seen = true;
 	}
 
@@ -111,7 +111,7 @@ if(device_mouse_check_button_pressed(0, mb_left)
 
 	global.Mythril -= 50;
 
-	with(obj_Placeable) {
+	with(obj_Placeable_main) {
 		can_be_seen = true;
 	}
 
@@ -139,7 +139,7 @@ if(device_mouse_check_button_pressed(0, mb_left)
 
 	global.Mythril -= 100;
 
-	with(obj_Placeable) {
+	with(obj_Placeable_main) {
 		can_be_seen = true;
 	}
 
@@ -168,7 +168,7 @@ if(device_mouse_check_button_pressed(0, mb_left)
 
 	global.Mythril -= 50;
 
-	with(obj_Placeable) {
+	with(obj_Placeable_main) {
 		can_be_seen = true;
 	}
 

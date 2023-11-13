@@ -23,6 +23,6 @@ hurt = function(_amount = 100){
 
 slow = function(){
 	
-	path_speed = speed_current/4;
+	path_speed = speed_current/2;
 	alarm_set(0,speed_timer)
 }

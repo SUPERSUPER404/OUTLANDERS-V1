@@ -13,7 +13,7 @@ if(global.instance_tower_to_build != noone) {
 	
 	
 	
-	with(obj_Placeable){
+	with(obj_Placeable_main){
 	can_be_seen = false;	
 	}
 }
