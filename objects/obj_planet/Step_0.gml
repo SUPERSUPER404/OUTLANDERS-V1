@@ -2,6 +2,4 @@
 // You can write your code in this editor
 
 
-draw_self();
-draw_text(x-16,y+5,200)
-
+image_angle += 0.5

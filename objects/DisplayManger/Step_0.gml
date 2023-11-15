@@ -38,14 +38,14 @@ if(mouse_check_button(mb_left) && in_bounds) {
 }
 
 
-var zoom_factor = 0.04
+var zoom_factor = 0.08
 
 
 // Zoom in
 if(mouse_wheel_up()) {
 	
-	if(camera_get_view_height(camera) * (1 - zoom_factor) > 64 
-	&& camera_get_view_width(camera) * (1 - zoom_factor) > 64 * (16/9)
+	if(camera_get_view_height(camera) * (1 - zoom_factor) > 256
+	&& camera_get_view_width(camera) * (1 - zoom_factor) > 256 * (16/9)
 	) {
 		
 	camera_set_view_size(
