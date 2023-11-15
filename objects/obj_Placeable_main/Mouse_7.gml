@@ -9,11 +9,14 @@ if(global.instance_tower_to_build != noone) {
 	
 	obj_UI_Mouse.selected_sprite = noone;
 	
- instance_destroy(self);
+    instance_destroy(self);
 	
 	
 	
 	with(obj_Placeable_main){
-	can_be_seen = false;	
+		can_be_seen = false;	
+	}
+	with(obj_Placeable_off_planet) {
+		can_be_seen = false;
 	}
 }

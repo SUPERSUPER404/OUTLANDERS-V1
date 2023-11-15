@@ -39,8 +39,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_lazer_gun_WIP",
-    "path": "sprites/spr_lazer_gun_WIP/spr_lazer_gun_WIP.yy",
+    "name": "spr_lazer_gun",
+    "path": "sprites/spr_lazer_gun/spr_lazer_gun.yy",
   },
   "spriteMaskId": null,
   "visible": true,

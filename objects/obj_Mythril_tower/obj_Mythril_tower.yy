@@ -36,8 +36,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_tower_money_WIP",
-    "path": "sprites/spr_tower_money_WIP/spr_tower_money_WIP.yy",
+    "name": "spr_tower_money",
+    "path": "sprites/spr_tower_money/spr_tower_money.yy",
   },
   "spriteMaskId": null,
   "visible": true,

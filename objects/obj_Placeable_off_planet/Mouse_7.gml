@@ -17,4 +17,7 @@ if(global.instance_tower_to_build != noone) {
 	with(obj_Placeable_main){
 	can_be_seen = false;	
 	}
+	with(obj_Placeable_off_planet) {
+	can_be_seen = false;
+	}
 }
