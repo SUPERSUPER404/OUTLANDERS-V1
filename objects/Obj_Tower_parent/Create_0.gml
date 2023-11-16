@@ -14,5 +14,17 @@ radius = 150;
 
 can_shoot = true;
 target = noone;
+is_selected = false;
 hover = false;
 alarm_set(1,1);
+
+
+upgrade = function(){
+	// same for each tower
+	level += 1;
+	upgrade_price = upgrade_price + (upgrade_price/5)
+	//diff for each tower
+	
+	
+	
+}

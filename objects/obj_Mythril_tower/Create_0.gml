@@ -8,8 +8,17 @@ name = "Mine"
 level = 1;
 
 upgrade_price = 100;
-bullet_damage = 1;
+bullet_damage = 50;
 
 rate_of_fire = 0.2;
-radius = 150;
+radius = 0;
 
+upgrade = function(){
+	// same for each tower
+	level += 1;
+	upgrade_price = upgrade_price + upgrade_price
+	//diff for each tower
+	bullet_damage += 50
+	
+	
+}

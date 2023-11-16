@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "User Interface",
-    "path": "folders/Objects/User Interface.yy",
+    "name": "Buttons",
+    "path": "folders/Objects/User Interface/Buttons.yy",
   },
   "parentObjectId": null,
   "persistent": false,
