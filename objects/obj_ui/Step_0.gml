@@ -82,11 +82,12 @@ if(device_mouse_check_button_pressed(0, mb_left)
 
 	global.Mythril -= 50;
 
-	with(obj_Placeable_main) {
-		can_be_seen = true;
-	}
+	if(instance_exists(obj_Placeable_main))
+		obj_Placeable_main.can_be_seen = true;
+	if(instance_exists(obj_Placeable_off_planet))
+		obj_Placeable_off_planet.can_be_seen = true;
 
-	obj_UI_Mouse.selected_sprite = spr_lazer_gun_WIP;
+	obj_UI_Mouse.selected_sprite = spr_lazer_gun;
 	
 	global.instance_tower_to_build = obj_lazer_gun_tower;	
 	
@@ -111,11 +112,10 @@ if(device_mouse_check_button_pressed(0, mb_left)
 
 	global.Mythril -= 50;
 
-	with(obj_Placeable_main) {
-		can_be_seen = true;
-	}
+	if(instance_exists(obj_Placeable_main))
+		obj_Placeable_main.can_be_seen = true;
 
-	obj_UI_Mouse.selected_sprite = spr_tower_money_WIP;
+	obj_UI_Mouse.selected_sprite = spr_tower_money;
 	
 	global.instance_tower_to_build = obj_Mythril_tower;
 	
@@ -139,9 +139,10 @@ if(device_mouse_check_button_pressed(0, mb_left)
 
 	global.Mythril -= 100;
 
-	with(obj_Placeable_main) {
-		can_be_seen = true;
-	}
+	if(instance_exists(obj_Placeable_main))
+		obj_Placeable_main.can_be_seen = true;
+	if(instance_exists(obj_Placeable_off_planet))
+		obj_Placeable_off_planet.can_be_seen = true;
 
 	obj_UI_Mouse.selected_sprite = spr_richochet_tower;
 	
@@ -168,9 +169,10 @@ if(device_mouse_check_button_pressed(0, mb_left)
 
 	global.Mythril -= 50;
 
-	with(obj_Placeable_main) {
-		can_be_seen = true;
-	}
+	if(instance_exists(obj_Placeable_main))
+		obj_Placeable_main.can_be_seen = true;
+	if(instance_exists(obj_Placeable_off_planet))
+		obj_Placeable_off_planet.can_be_seen = true;
 
 	obj_UI_Mouse.selected_sprite = Spr_tower_slow;
 	

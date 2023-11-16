@@ -3,5 +3,5 @@
 
 
 draw_self();
-draw_text(x-16,y+5,200)
+draw_text(x-16,y+5,150)
 
