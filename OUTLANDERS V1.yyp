@@ -55,6 +55,7 @@
     {"id":{"name":"obj_planet","path":"objects/obj_planet/obj_planet.yy",},},
     {"id":{"name":"spr_lazer_gun_green","path":"sprites/spr_lazer_gun_green/spr_lazer_gun_green.yy",},},
     {"id":{"name":"Obj_slow_tower","path":"objects/Obj_slow_tower/Obj_slow_tower.yy",},},
+    {"id":{"name":"spr_platform","path":"sprites/spr_platform/spr_platform.yy",},},
     {"id":{"name":"obj_laser_green_big","path":"objects/obj_laser_green_big/obj_laser_green_big.yy",},},
     {"id":{"name":"Spr_UI_close","path":"sprites/Spr_UI_close/Spr_UI_close.yy",},},
     {"id":{"name":"align_set","path":"scripts/align_set/align_set.yy",},},
