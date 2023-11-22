@@ -1,7 +1,7 @@
 /// @description Insert description here
 target = noone
-wave = (global.timer/60) + 1
-hit_points = 100
+wave = (50)*(global.timer/60) + 100
+hit_points = wave
 hit_points_max = hit_points;
 
 
