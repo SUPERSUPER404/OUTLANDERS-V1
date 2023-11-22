@@ -27,5 +27,5 @@ upgrade = function(){
 	//diff for each tower
 	richochet += 2
 	radius += 20
-	
+	bullet_damage += 15
 }
