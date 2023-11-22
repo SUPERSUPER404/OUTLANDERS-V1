@@ -181,6 +181,37 @@ if(device_mouse_check_button_pressed(0, mb_left)
 }
 
 
+//trap tower
+if(device_mouse_check_button_pressed(0, mb_left) 
+&& device_mouse_x_to_gui(0) > 1240 
+&& device_mouse_x_to_gui(0) < 1340
+&& device_mouse_y_to_gui(0) > 592
+&& device_mouse_y_to_gui(0) < 658) {
+	
+	if (global.Mythril < 100){
+		return	
+	}
+	
+
+
+	global.Mythril -= 50;
+
+	if(instance_exists(obj_Placeable_main))
+		obj_Placeable_main.can_be_seen = true;
+	if(instance_exists(obj_Placeable_off_planet))
+		obj_Placeable_off_planet.can_be_seen = true;
+
+	obj_UI_Mouse.selected_sprite = Spr_tower_bomb;
+	
+	global.instance_tower_to_build = Obj_tower_bomb;	
+	
+}
+
+
+
+
+
+
 
 
 
