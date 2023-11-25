@@ -235,4 +235,7 @@ if(device_mouse_check_button_pressed(0, mb_left)
 }
 
 
-show_debug_message(global.shop_number)
+if(global.life <= 0){
+	room_restart();
+	room_goto(Rm_GameOver)
+}
