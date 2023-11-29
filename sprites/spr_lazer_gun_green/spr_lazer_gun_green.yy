@@ -4,7 +4,7 @@
   "name": "spr_lazer_gun_green",
   "bbox_bottom": 63,
   "bbox_left": 0,
-  "bbox_right": 72,
+  "bbox_right": 63,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "ammo",
-    "path": "folders/Sprites/ammo.yy",
+    "name": "Towers",
+    "path": "folders/Sprites/Towers.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -59,7 +59,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 36,
+    "xorigin": 32,
     "yorigin": 32,
   },
   "swatchColours": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 73,
+  "width": 64,
 }

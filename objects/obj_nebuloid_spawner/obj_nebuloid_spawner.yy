@@ -28,7 +28,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_nebuloid",
+    "path": "sprites/spr_nebuloid/spr_nebuloid.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
