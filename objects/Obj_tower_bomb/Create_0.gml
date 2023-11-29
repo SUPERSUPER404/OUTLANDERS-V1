@@ -6,7 +6,7 @@ bullet_damage = 60*global.bomb_dmg;
 rate_of_fire = 5;
 upgrade_price = 100;
 
-name = "Bomb Tower";
+name = "STORM Tower";
 
 upgrade = function(){
 	// same for each tower
