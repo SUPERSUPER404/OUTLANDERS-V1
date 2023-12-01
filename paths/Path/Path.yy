@@ -5,8 +5,8 @@
   "closed": false,
   "kind": 1,
   "parent": {
-    "name": "Paths",
-    "path": "folders/Paths.yy",
+    "name": "random paths",
+    "path": "folders/Paths/random paths.yy",
   },
   "points": [
     {"speed":100.0,"x":-364.0,"y":-437.0,},
@@ -17,6 +17,10 @@
     {"speed":100.0,"x":595.5307,"y":163.698,},
     {"speed":100.0,"x":649.7266,"y":413.00012,},
     {"speed":100.0,"x":960.0,"y":540.0,},
+    {"speed":100.0,"x":-224.0,"y":32.0,},
+    {"speed":100.0,"x":-224.0,"y":32.0,},
+    {"speed":100.0,"x":-352.0,"y":0.0,},
+    {"speed":100.0,"x":-288.0,"y":0.0,},
   ],
   "precision": 4,
 }
