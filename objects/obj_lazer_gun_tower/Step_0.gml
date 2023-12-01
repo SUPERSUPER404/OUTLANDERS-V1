@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+event_inherited();
+
 if(target == noone){
 target = collision_circle(x, y, radius, obj_enemy, false, true)	
 } else {
