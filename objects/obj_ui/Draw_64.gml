@@ -4,7 +4,7 @@
 
 draw_set_color(c_ltgrey)
 draw_rectangle(display_get_gui_width() - 128, 0, display_get_gui_width(), display_get_gui_height(), false)
-draw_sprite(spr_UI_bar, 0, 0, 0)
+draw_sprite(spr_UI_bar, 0, room_width/2, 0)
 
 draw_set_color(c_black)
 draw_text_transformed(display_get_gui_width() - 96, 64, "SHOP", 2, 2, 0)

@@ -2,6 +2,8 @@
 // You can write your code in this editor
 canChangeShop = true
 
+show_debug_message(device_mouse_x_to_gui(0))
+
 if(global.shop_number == 3) {
 	
 	//Back

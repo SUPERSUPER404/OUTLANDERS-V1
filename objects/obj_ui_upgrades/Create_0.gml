@@ -2,13 +2,8 @@
 bb1 = bbox_right+125
 bb2 = bbox_top-50
 
-
-
-
-
-
-
-
+x = 0;
+y = room_height + 128;
 
 tower_name = "default tower";
 tower_level = -99;
