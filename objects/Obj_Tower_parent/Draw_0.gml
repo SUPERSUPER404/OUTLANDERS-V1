@@ -13,7 +13,7 @@ if (hover == true){
 	draw_healthbar(
 	self.x - 32, self.y + 36,
 	self.x + 32, self.y + 40,
-	health,
+	hit_points,
 	c_black, c_red, c_green,
 	0, false, true
 	);

@@ -6,6 +6,8 @@ image_speed = 0;
 name = "defualt"
 level = 1;
 
+hit_points = 100;
+
 upgrade_price = 10;
 bullet_damage = 1;
 
@@ -27,4 +29,8 @@ upgrade = function(){
 	
 	
 	
+}
+
+if(instance_nearest(self.x, self.y, obj_platform) < 10) {
+	onPlanet = false
 }
