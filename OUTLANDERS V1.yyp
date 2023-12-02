@@ -48,7 +48,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.108",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"obj_UI_Mouse","path":"objects/obj_UI_Mouse/obj_UI_Mouse.yy",},},
@@ -192,7 +192,6 @@
     {"roomId":{"name":"Rm_mainroom","path":"rooms/Rm_mainroom/Rm_mainroom.yy",},},
     {"roomId":{"name":"Rm_GameOver","path":"rooms/Rm_GameOver/Rm_GameOver.yy",},},
   ],
-  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],
