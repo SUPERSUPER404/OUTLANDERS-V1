@@ -23,6 +23,6 @@ upgrade = function(){
 	upgrade_price = upgrade_price + upgrade_price
 	//diff for each tower
 	radius += 20;
-	global.slow += 0.5
+	global.slow = global.slow / 1.3
 	bullet_damage += 0.5
 }

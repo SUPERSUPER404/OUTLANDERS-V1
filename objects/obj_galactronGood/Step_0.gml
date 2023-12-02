@@ -3,15 +3,15 @@
 
 if(hit_points <= 0)
 	instance_destroy(self)
-else if(distance_to_object(instance_nearest(self.x, self.y, global.gal_target)) > 128) {
+else if(distance_to_object(instance_nearest(self.x, self.y, obj_enemy)) > 128) {
 	
-	move_towards_point(global.loc_target.x, global.loc_target.y, speed_current);
-	image_angle = point_direction(x, y, global.loc_target.x, global.loc_target.y) + 90;
+	move_towards_point(obj_enemy.x, obj_enemy.y, speed_current);
+	image_angle = point_direction(x, y, obj_enemy.x, obj_enemy.y) + 90;
 	
 }
-else if(distance_to_object(instance_nearest(self.x, self.y, global.gal_target)) > 64) {
+else if(distance_to_object(instance_nearest(self.x, self.y, obj_enemy)) > 64) {
 	
-	var inst = instance_nearest(self.x, self.y, global.gal_target);
+	var inst = instance_nearest(self.x, self.y, obj_enemy);
 	
 	move_towards_point(
 	inst.x,
@@ -23,7 +23,7 @@ else if(distance_to_object(instance_nearest(self.x, self.y, global.gal_target)) 
 }
 else {
 	
-	var inst = instance_nearest(self.x, self.y, global.gal_target);
+	var inst = instance_nearest(self.x, self.y, obj_enemy);
 	
 	speed = 0
 	
@@ -31,11 +31,11 @@ else {
 	
 	if(canShoot) {
 
-		var instance_bullet = instance_create_depth(x,y, depth - 1, obj_bullet_enemy)
+		var instance_bullet = instance_create_depth(x,y, depth - 1, obj_Bullet_player)
 		instance_bullet.direction = point_direction(self.x, self.y, inst.x, inst.y)
 		instance_bullet.image_angle = instance_bullet.direction;
 		instance_bullet.speed = 10;
-		
+		instance_bullet._damage = 25;
 		canShoot = false;
 		
 		alarm[1] = room_speed * fire_rate;

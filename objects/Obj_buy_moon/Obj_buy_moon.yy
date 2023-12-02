@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "OUTLANDERS V1",
-    "path": "OUTLANDERS V1.yyp",
+    "name": "User Interface",
+    "path": "folders/Objects/User Interface.yy",
   },
   "parentObjectId": null,
   "persistent": false,

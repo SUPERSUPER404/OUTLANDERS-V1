@@ -93,11 +93,23 @@ if(global.shop_number == 2) {
 	draw_rectangle(display_get_gui_width() - 96 - 16, display_get_gui_height() - 56, display_get_gui_width() - 16, display_get_gui_height() - 16,true)
 	draw_text_transformed(display_get_gui_width() - 104, display_get_gui_height() - 38, "BACK", 2, 2, 0)
 	
-	//Rectangles
-	draw_rectangle(display_get_gui_width() - 96, 96, display_get_gui_width() - 32, 96+64,true)
+	//slot 1
+	draw_sprite_stretched(Spr_jacker, 0, display_get_gui_width() - 96, 96, 64, 64)
+    draw_rectangle(display_get_gui_width() - 96, 96, display_get_gui_width() - 32, 96+64,true)
+    draw_text(display_get_gui_width() - 120, 96+64+32, "Spawner\nCost: 400")
+	
+	
+	//slot 2
 	draw_rectangle(display_get_gui_width() - 96, 220, display_get_gui_width() - 32, 220+64,true)
+	
+	
+	//slot 3
 	draw_rectangle(display_get_gui_width() - 96, 344, display_get_gui_width() - 32, 344+64,true)
+	
+	//slot 4
 	draw_rectangle(display_get_gui_width() - 96, 468, display_get_gui_width() - 32, 468+64,true)
+	
+	//slot 5
 	draw_rectangle(display_get_gui_width() - 96, 592, display_get_gui_width() - 32, 592+64,true)
 	
 }

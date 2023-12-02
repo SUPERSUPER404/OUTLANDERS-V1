@@ -1,18 +1,21 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_buy_planet",
+  "name": "Obj_jacker_tower",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "User Interface",
-    "path": "folders/Objects/User Interface.yy",
+    "name": "Towers",
+    "path": "folders/Objects/Towers.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_Tower_parent",
+    "path": "objects/obj_Tower_parent/obj_Tower_parent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Spr_buy_moon",
-    "path": "sprites/Spr_buy_moon/Spr_buy_moon.yy",
+    "name": "Spr_jacker",
+    "path": "sprites/Spr_jacker/Spr_jacker.yy",
   },
   "spriteMaskId": null,
   "visible": true,

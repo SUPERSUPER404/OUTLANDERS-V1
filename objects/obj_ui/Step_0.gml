@@ -3,8 +3,32 @@
 canChangeShop = true
 
 if(global.shop_number == 2) {
+	//spawner
+	if(device_mouse_check_button_pressed(0, mb_left) 
+&& device_mouse_x_to_gui(0) > 1240 
+&& device_mouse_x_to_gui(0) < 1340
+&& device_mouse_y_to_gui(0) > 94
+&& device_mouse_y_to_gui(0) < 160) {
 	
+	if (global.Mythril < 30){
+		return;
+	}
 	
+
+
+	global.Mythril -= 30;
+
+	if(instance_exists(obj_Placeable_main))
+		obj_Placeable_main.can_be_seen = true;
+	if(instance_exists(obj_Placeable_off_planet))
+		obj_Placeable_off_planet.can_be_seen = true;
+
+	obj_UI_Mouse.selected_sprite = Spr_jacker;
+	
+	global.instance_tower_to_build = Obj_jacker_tower;	
+	
+}
+
 //Back
 if(device_mouse_check_button_pressed(0, mb_left) 
 && device_mouse_x_to_gui(0) > 1240 - 16
@@ -188,9 +212,15 @@ if(device_mouse_check_button_pressed(0, mb_left)
 	canChangeShop = false
 	alarm[2] = room_speed * 0.25
 	
+	
 	}
 
 }
+
+
+
+
+
 
 
 if(global.life <= 0){
