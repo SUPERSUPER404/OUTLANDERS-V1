@@ -2,63 +2,19 @@
 // You can write your code in this editor
 canChangeShop = true
 
-show_debug_message(device_mouse_x_to_gui(0))
-
-if(global.shop_number == 3) {
-	
-	//Back
-	if(device_mouse_check_button_pressed(0, mb_left) 
-	&& device_mouse_x_to_gui(0) > 1253
-	&& device_mouse_x_to_gui(0) < 1302
-	&& device_mouse_y_to_gui(0) > display_get_gui_height() - 64
-	&& device_mouse_y_to_gui(0) < display_get_gui_height() - 16
-	&& canChangeShop) {
-	
-		global.shop_number --
-		canChangeShop = false
-	
-	}
-	
-	//Next
-	if(device_mouse_check_button_pressed(0, mb_left) 
-	&& device_mouse_x_to_gui(0) > 1302
-	&& device_mouse_x_to_gui(0) < 1352
-	&& device_mouse_y_to_gui(0) > display_get_gui_height() - 64
-	&& device_mouse_y_to_gui(0) < display_get_gui_height() - 16
-	&& canChangeShop) {
-	
-	global.shop_number ++
-	canChangeShop = false
-	
-	}
-	
-}
-
 if(global.shop_number == 2) {
 	
-	//Back
-	if(device_mouse_check_button_pressed(0, mb_left) 
-	&& device_mouse_x_to_gui(0) > 1253
-	&& device_mouse_x_to_gui(0) < 1302
-	&& device_mouse_y_to_gui(0) > display_get_gui_height() - 64
-	&& device_mouse_y_to_gui(0) < display_get_gui_height() - 16
-	&& canChangeShop) {
 	
-		global.shop_number --
-		canChangeShop = false
+//Back
+if(device_mouse_check_button_pressed(0, mb_left) 
+&& device_mouse_x_to_gui(0) > 1240 - 16
+&& device_mouse_x_to_gui(0) < 1340 + 16
+&& device_mouse_y_to_gui(0) > display_get_gui_height() - 64
+&& device_mouse_y_to_gui(0) < display_get_gui_height() - 16) {
 	
-	}
-	
-	//Next
-	if(device_mouse_check_button_pressed(0, mb_left) 
-	&& device_mouse_x_to_gui(0) > 1302
-	&& device_mouse_x_to_gui(0) < 1352
-	&& device_mouse_y_to_gui(0) > display_get_gui_height() - 64
-	&& device_mouse_y_to_gui(0) < display_get_gui_height() - 16
-	&& canChangeShop) {
-	
-	global.shop_number ++
-	canChangeShop = false
+	global.shop_number --;
+	canChangeShop = false;
+	alarm[2] = room_speed * 0.25;
 	
 	}
 	
@@ -77,7 +33,7 @@ if(device_mouse_check_button_pressed(0, mb_left)
 && device_mouse_y_to_gui(0) < 160) {
 	
 	if (global.Mythril < 50){
-		return	
+		return;
 	}
 	
 
@@ -107,7 +63,7 @@ if(device_mouse_check_button_pressed(0, mb_left)
 && device_mouse_y_to_gui(0) < 286) {
 	
 	if (global.Mythril < 50){
-		return	
+		return;
 	}
 	
 
@@ -134,7 +90,7 @@ if(device_mouse_check_button_pressed(0, mb_left)
 && device_mouse_y_to_gui(0) < 334 + 64) {
 	
 	if (global.Mythril < 100){
-		return	
+		return;
 	}
 	
 
@@ -191,7 +147,7 @@ if(device_mouse_check_button_pressed(0, mb_left)
 && device_mouse_y_to_gui(0) < 658) {
 	
 	if (global.Mythril < 100){
-		return	
+		return;
 	}
 	
 

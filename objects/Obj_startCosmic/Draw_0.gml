@@ -5,4 +5,4 @@
 
 
 draw_self()
-draw_text(x,y,"COSMIC")
+draw_text_transformed(x,y,"COSMIC", 2, 2, 0)

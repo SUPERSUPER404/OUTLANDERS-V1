@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+event_inherited();
+
 var instance_array = array_create(5, 0)
 
 nextTarget = noone
@@ -28,7 +30,7 @@ else {
 				laser_spawn_y : self.y - 20,
 				image_angle : point_direction(self.x, self.y- 20, nextTarget.x, nextTarget.y) }
 				);
-				show_debug_message(richochet)
+	
 				nextTarget.hit_points -= bullet_damage
 			
 			}

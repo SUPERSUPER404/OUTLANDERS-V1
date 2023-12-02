@@ -80,7 +80,7 @@ draw_sprite_stretched(Spr_tower_bomb, 0, display_get_gui_width() - 96, 220 + (46
 draw_rectangle(display_get_gui_width() - 96, 592, display_get_gui_width() - 32, 592+64,true)
 draw_text(display_get_gui_width() - 120, 592+64+32, "Storm \nCost: 100")
 //Next
-draw_rectangle(display_get_gui_width() - 96 - 16, display_get_gui_height() - 64, display_get_gui_width() - 16, display_get_gui_height() - 16,true)
+draw_rectangle(display_get_gui_width() - 96 - 16, display_get_gui_height() - 56, display_get_gui_width() - 16, display_get_gui_height() - 16,true)
 draw_text_transformed(display_get_gui_width() - 104, display_get_gui_height() - 38, "NEXT", 2, 2, 0)
 
 }
@@ -89,13 +89,9 @@ draw_text_transformed(display_get_gui_width() - 104, display_get_gui_height() - 
 // Shop 2
 if(global.shop_number == 2) {
 	
-	//Next
-	draw_rectangle(display_get_gui_width() - (112-16)/2 - 16, display_get_gui_height() - 64, display_get_gui_width() - 16, display_get_gui_height() - 16,true)
-	draw_text_transformed(display_get_gui_width() - 57, display_get_gui_height() - 38, "NEXT", 1, 1, 0)
-	
 	//Back
-	draw_rectangle(display_get_gui_width() - 112, display_get_gui_height() - 64, display_get_gui_width() - (112-16)/2 - 16, display_get_gui_height() - 16,true)
-	draw_text_transformed(display_get_gui_width() - 109, display_get_gui_height() - 38, "BACK", 1, 1, 0)
+	draw_rectangle(display_get_gui_width() - 96 - 16, display_get_gui_height() - 56, display_get_gui_width() - 16, display_get_gui_height() - 16,true)
+	draw_text_transformed(display_get_gui_width() - 104, display_get_gui_height() - 38, "BACK", 2, 2, 0)
 	
 	//Rectangles
 	draw_rectangle(display_get_gui_width() - 96, 96, display_get_gui_width() - 32, 96+64,true)
@@ -103,26 +99,5 @@ if(global.shop_number == 2) {
 	draw_rectangle(display_get_gui_width() - 96, 344, display_get_gui_width() - 32, 344+64,true)
 	draw_rectangle(display_get_gui_width() - 96, 468, display_get_gui_width() - 32, 468+64,true)
 	draw_rectangle(display_get_gui_width() - 96, 592, display_get_gui_width() - 32, 592+64,true)
-	
-}
-
-//Shop 3
-if(global.shop_number == 3) {
-	
-	//Next
-	draw_rectangle(display_get_gui_width() - (112-16)/2 - 16, display_get_gui_height() - 64, display_get_gui_width() - 16, display_get_gui_height() - 16,true)
-	draw_text_transformed(display_get_gui_width() - 57, display_get_gui_height() - 38, "NEXT", 1, 1, 0)
-	
-	//Back
-	draw_rectangle(display_get_gui_width() - 112, display_get_gui_height() - 64, display_get_gui_width() - (112-16)/2 - 16, display_get_gui_height() - 16,true)
-	draw_text_transformed(display_get_gui_width() - 109, display_get_gui_height() - 38, "BACK", 1, 1, 0)
-	
-	//Rectangles
-	draw_rectangle(display_get_gui_width() - 96, 96, display_get_gui_width() - 32, 96+64,true)
-	draw_rectangle(display_get_gui_width() - 96, 220, display_get_gui_width() - 32, 220+64,true)
-	draw_rectangle(display_get_gui_width() - 96, 344, display_get_gui_width() - 32, 344+64,true)
-	draw_rectangle(display_get_gui_width() - 96, 468, display_get_gui_width() - 32, 468+64,true)
-	draw_rectangle(display_get_gui_width() - 96, 592, display_get_gui_width() - 32, 592+64,true)
-	
 	
 }

@@ -4,4 +4,4 @@
 
 
 draw_self()
-draw_text(x,y,"Hard")
+draw_text_transformed(x,y,"Hard", 2, 2, 0)
