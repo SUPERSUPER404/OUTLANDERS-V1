@@ -4,3 +4,4 @@
 
 	instance_destroy(self)
 	global.life = global.life - 1
+	audio_play_sound(Sxf_hitplanet, 1, false);

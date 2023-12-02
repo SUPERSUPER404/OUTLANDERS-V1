@@ -35,9 +35,9 @@ else {
 		instance_bullet.direction = point_direction(self.x, self.y, inst.x, inst.y)
 		instance_bullet.image_angle = instance_bullet.direction;
 		instance_bullet.speed = 10;
-		instance_bullet._damage = 25;
+		instance_bullet._damage = 50;
 		canShoot = false;
-		
+		audio_play_sound(Sxf_eneyshot, 1, false);
 		alarm[1] = room_speed * fire_rate;
 		
 	}

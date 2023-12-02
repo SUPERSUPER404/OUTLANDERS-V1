@@ -9,15 +9,15 @@ if(global.shop_number == 2) {
 && device_mouse_x_to_gui(0) < 1340
 && device_mouse_y_to_gui(0) > 94
 && device_mouse_y_to_gui(0) < 160) {
-	
-	if (global.Mythril < 30){
+	if (global.Mythril < 400){
 		return;
+		audio_play_sound(Sxf_cantbuy, 1, false);
 	}
 	
 
 
-	global.Mythril -= 30;
-
+	global.Mythril -= 400;
+    audio_play_sound(Sxf_towerbuying, 1, false);
 	if(instance_exists(obj_Placeable_main))
 		obj_Placeable_main.can_be_seen = true;
 	if(instance_exists(obj_Placeable_off_planet))
@@ -39,7 +39,7 @@ if(device_mouse_check_button_pressed(0, mb_left)
 	global.shop_number --;
 	canChangeShop = false;
 	alarm[2] = room_speed * 0.25;
-	
+	audio_play_sound(Sxf_shopmoving, 1, false);
 	}
 	
 }
@@ -58,12 +58,13 @@ if(device_mouse_check_button_pressed(0, mb_left)
 	
 	if (global.Mythril < 50){
 		return;
+		audio_play_sound(Sxf_cantbuy, 1, false);
 	}
 	
 
 
 	global.Mythril -= 50;
-
+    audio_play_sound(Sxf_towerbuying, 1, false);
 	if(instance_exists(obj_Placeable_main))
 		obj_Placeable_main.can_be_seen = true;
 	if(instance_exists(obj_Placeable_off_planet))
@@ -88,12 +89,13 @@ if(device_mouse_check_button_pressed(0, mb_left)
 	
 	if (global.Mythril < 50){
 		return;
+		audio_play_sound(Sxf_cantbuy, 1, false);
 	}
 	
 
 
 	global.Mythril -= 50;
-
+    audio_play_sound(Sxf_towerbuying, 1, false);
 	if(instance_exists(obj_Placeable_main))
 		obj_Placeable_main.can_be_seen = true;
 
@@ -115,12 +117,13 @@ if(device_mouse_check_button_pressed(0, mb_left)
 	
 	if (global.Mythril < 100){
 		return;
+		audio_play_sound(Sxf_cantbuy, 1, false);
 	}
 	
 
 
 	global.Mythril -= 100;
-
+    audio_play_sound(Sxf_towerbuying, 1, false);
 	if(instance_exists(obj_Placeable_main))
 		obj_Placeable_main.can_be_seen = true;
 	if(instance_exists(obj_Placeable_off_planet))
@@ -144,13 +147,14 @@ if(device_mouse_check_button_pressed(0, mb_left)
 && device_mouse_y_to_gui(0) < 510) {
 	
 	if (global.Mythril < 50){
-		return	
+		return;
+		audio_play_sound(Sxf_cantbuy, 1, false);
 	}
 	
 
 
 	global.Mythril -= 50;
-
+    audio_play_sound(Sxf_towerbuying, 1, false);
 	if(instance_exists(obj_Placeable_main))
 		obj_Placeable_main.can_be_seen = true;
 	if(instance_exists(obj_Placeable_off_planet))
@@ -172,12 +176,13 @@ if(device_mouse_check_button_pressed(0, mb_left)
 	
 	if (global.Mythril < 100){
 		return;
+		audio_play_sound(Sxf_cantbuy, 1, false);
 	}
 	
 
 
 	global.Mythril -= 50;
-
+    audio_play_sound(Sxf_towerbuying, 1, false);
 	if(instance_exists(obj_Placeable_main))
 		obj_Placeable_main.can_be_seen = true;
 	if(instance_exists(obj_Placeable_off_planet))
@@ -211,7 +216,7 @@ if(device_mouse_check_button_pressed(0, mb_left)
 	global.shop_number ++
 	canChangeShop = false
 	alarm[2] = room_speed * 0.25
-	
+	audio_play_sound(Sxf_shopmoving, 1, false);
 	
 	}
 
@@ -224,6 +229,7 @@ if(device_mouse_check_button_pressed(0, mb_left)
 
 
 if(global.life <= 0){
+	audio_play_sound(Sxf_gameover, 1, false);
 	room_restart();
 	room_goto(Rm_GameOver)
 }

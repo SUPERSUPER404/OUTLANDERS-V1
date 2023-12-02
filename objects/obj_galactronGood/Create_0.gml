@@ -5,7 +5,7 @@ speed_current = random_range(0.7, 1.2);
 canShoot = true;
 fire_rate = 1;
 
-alarm[0] = room_speed * 10;
+alarm[0] = room_speed * 15;
 
 
 

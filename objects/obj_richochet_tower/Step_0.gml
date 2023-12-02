@@ -17,7 +17,7 @@ else {
 		if (can_shoot == true){
 		can_shoot = false;
 		alarm_set(2, room_speed / rate_of_fire);
-		
+		audio_play_sound(Sxf_lightingtower, 1, false);
 		for(i = 0; i < richochet; i ++) {
 		
 			if(i == 0) {

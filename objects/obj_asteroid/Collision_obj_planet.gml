@@ -4,3 +4,4 @@
 global.life -= 15
 
 hit_points -= 150
+audio_play_sound(Sxf_hitplanet, 1, false);

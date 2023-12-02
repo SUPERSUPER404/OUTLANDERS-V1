@@ -2,7 +2,7 @@
 
 if(global.instance_tower_to_build != noone) {
 	instance_create_depth(x, y, 0, global.instance_tower_to_build);
-	
+	audio_play_sound(Sxf_towerbuild, 1, false);
 	
 	global.instance_tower_to_build = noone;
 	

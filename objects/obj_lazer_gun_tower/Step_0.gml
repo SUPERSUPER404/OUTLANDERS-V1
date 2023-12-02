@@ -14,7 +14,7 @@ target = collision_circle(x, y, radius, obj_enemy, false, true)
 		if (can_shoot == true){
 		can_shoot = false;
 		alarm_set(2, room_speed * rate_of_fire);
-		
+		audio_play_sound(SXF_lazer_gun, 1, false);
 		var instance_bullet = instance_create_depth(x,y, depth - 1, obj_Bullet_player)
 		instance_bullet.direction = point_direction(x,y,target.x,target.y)
 		instance_bullet.image_angle =instance_bullet.direction;

@@ -26,7 +26,7 @@ alarm_set(1,1);
 upgrade = function(){
 	// same for each tower
 	level += 1;
-	upgrade_price = upgrade_price + (upgrade_price/5)
+	upgrade_price += upgrade_price 
 	//diff for each tower
 	rate_of_fire = rate_of_fire/2
 }

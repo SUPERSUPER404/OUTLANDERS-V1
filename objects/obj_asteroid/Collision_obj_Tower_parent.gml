@@ -4,4 +4,4 @@
 instance_destroy(other)
 instance_destroy(self)
 
-
+audio_play_sound(Sxf_hitplanet, 1, false);

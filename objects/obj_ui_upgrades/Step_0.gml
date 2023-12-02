@@ -12,7 +12,7 @@ if(device_mouse_check_button_pressed(0, mb_left)
 && device_mouse_x_to_gui(0) < 1128 + 64
 && device_mouse_y_to_gui(0) > 670
 && device_mouse_y_to_gui(0) < 740) {
-	
+ audio_play_sound(Sxf_closeshop, 1, false);
  position_current_x = position_hidden_x;
  position_current_y = position_hidden_y;
 
@@ -28,6 +28,7 @@ if(device_mouse_check_button_pressed(0, mb_left)
 global.Mythril -= global.selected_tower.upgrade_price;
 global.selected_tower.upgrade();
 towers_select(global.selected_tower);
+audio_play_sound(Sxf_upgrade, 1, false);
 	}
 
 }

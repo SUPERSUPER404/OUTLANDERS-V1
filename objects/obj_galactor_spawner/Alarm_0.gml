@@ -7,5 +7,5 @@ var galactor = instance_create_layer(-100, irandom_range(room_height/2 - 256, ro
 galactor.hspeed = 0.5
 	
 alarm[0] = room_speed * (20 - (global.year / 2));
-
+audio_play_sound(Sxf_shopmoving, 1, false);
 

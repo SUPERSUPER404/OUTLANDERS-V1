@@ -4,3 +4,4 @@
 
 alarm[0] = room_speed*2
 
+audio_play_sound(Sxf_storm, 1, false);
