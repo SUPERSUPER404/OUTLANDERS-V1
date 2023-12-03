@@ -10,7 +10,7 @@ if (_num > 0)
     for (var i = 0; i < _num; ++i;)
     {
 		if(_list[| i].hit_points < _list[| i].hit_points_max)
-			_list[| i].hit_points ++;
+			_list[| i].hit_points += bullet_damage;
     }
 }
 ds_list_destroy(_list);

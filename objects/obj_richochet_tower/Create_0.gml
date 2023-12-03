@@ -8,10 +8,10 @@ level = 1;
 
 upgrade_price = 200;
 upgrade_cap = 4;
-bullet_damage = 10;
+bullet_damage = 50 + (global.year * 10);
 
 rate_of_fire = 1;
-radius = 128;
+radius = 192;
 
 hit_points = 100;
 hit_points_max = hit_points;
@@ -21,7 +21,7 @@ target = noone;
 hover = false;
 alarm_set(1,1);
 
-richochet = 8
+richochet = 6
 
 
 upgrade = function(){
@@ -31,5 +31,5 @@ upgrade = function(){
 	//diff for each tower
 	richochet += 2
 	radius += 20
-	bullet_damage += 15
+	
 }

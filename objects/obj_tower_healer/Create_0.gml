@@ -9,8 +9,8 @@ level = 1;
 hit_points = 100;
 hit_points_max = hit_points;
 
-upgrade_price = 10;
-upgrade_cap = 10;
+upgrade_price = 300;
+upgrade_cap = 3;
 bullet_damage = 1;
 
 rate_of_fire = 0.2;
@@ -27,8 +27,9 @@ upgrade = function() {
 	
 	// same for each tower
 	level += 1;
-	upgrade_price = upgrade_price + (upgrade_price/5)
+	upgrade_price *= 2;
 	//diff for each tower
+	bullet_damage *= 2;
 	
 }
 
