@@ -9,6 +9,7 @@ level = 1;
 hit_points = 100;
 
 upgrade_price = 10;
+upgrade_cap = 10;
 bullet_damage = 1;
 
 rate_of_fire = 0.2;

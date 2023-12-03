@@ -24,11 +24,11 @@ if(device_mouse_check_button_pressed(0, mb_left)
 && device_mouse_x_to_gui(0) < 1128 + 64 - 100
 && device_mouse_y_to_gui(0) > 670
 && device_mouse_y_to_gui(0) < 740) {
-	if(global.Mythril >= global.selected_tower.upgrade_price){
-global.Mythril -= global.selected_tower.upgrade_price;
-global.selected_tower.upgrade();
-towers_select(global.selected_tower);
-audio_play_sound(Sxf_upgrade, 1, false);
+	if(global.Mythril >= global.selected_tower.upgrade_price && global.selected_tower.level < global.selected_tower.upgrade_cap){
+		global.Mythril -= global.selected_tower.upgrade_price;
+		global.selected_tower.upgrade();
+		towers_select(global.selected_tower);
+		audio_play_sound(Sxf_upgrade, 1, false);
 	}
 
 }

@@ -24,6 +24,7 @@
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
     {"name":"music","order":1,"path":"folders/Sounds/music.yy",},
+    {"name":"sxf","order":2,"path":"folders/Sounds/sxf.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"ammo","order":2,"path":"folders/Sprites/ammo.yy",},
     {"name":"Enemies","order":5,"path":"folders/Sprites/Enemies.yy",},
@@ -32,7 +33,6 @@
     {"name":"Towers","order":1,"path":"folders/Sprites/Towers.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"sxf","order":2,"path":"folders/Sounds/sxf.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_UI_Mouse","order":3,"path":"objects/obj_UI_Mouse/obj_UI_Mouse.yy",},

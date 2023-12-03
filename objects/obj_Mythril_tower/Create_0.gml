@@ -7,8 +7,8 @@ alarm[1] = room_speed*0.25
 name = "Mine"
 level = 1;
 
-upgrade_price = 100;
-bullet_damage = 50;
+upgrade_price = 250;
+bullet_damage = 25;
 
 rate_of_fire = 0.2;
 radius = 0;
@@ -18,7 +18,7 @@ upgrade = function(){
 	level += 1;
 	upgrade_price = upgrade_price + upgrade_price
 	//diff for each tower
-	bullet_damage += 50
+	bullet_damage += 25
 	
 	
 }

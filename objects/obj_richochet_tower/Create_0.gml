@@ -6,7 +6,8 @@ image_speed = 0;
 name = "Richochet Tower"
 level = 1;
 
-upgrade_price = 50;
+upgrade_price = 200;
+upgrade_cap = 4;
 bullet_damage = 10;
 
 rate_of_fire = 1;

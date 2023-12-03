@@ -6,7 +6,9 @@ image_speed = 0;
 name = "slow"
 level = 1;
 
-upgrade_price = 50;
+upgrade_price = 300;
+upgrade_cap = 3;
+speed_multiplier = 0.8
 
 bullet_damage = global.slow;
 rate_of_fire = 100;
@@ -23,6 +25,5 @@ upgrade = function(){
 	upgrade_price = upgrade_price + upgrade_price
 	//diff for each tower
 	radius += 20;
-	global.slow = global.slow / 1.3
-	bullet_damage += 0.5
+	speed_multiplier -= 0.05
 }

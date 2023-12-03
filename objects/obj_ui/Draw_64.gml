@@ -65,20 +65,21 @@ draw_text(display_get_gui_width() - 120, 220+64+32, "Mine \nCost: 50")
 // Richochet
 draw_sprite_stretched(spr_richochet_tower, 0, display_get_gui_width() - 96, 220 + (220-96), 64, 64)
 draw_rectangle(display_get_gui_width() - 96, 344, display_get_gui_width() - 32, 344+64,true)
-draw_text(display_get_gui_width() - 120, 334+64+32, "Richochet \nCost: 100")
+draw_text(display_get_gui_width() - 120, 334+64+32, "Richochet \nCost: 200")
 
 
 // slow tower
 draw_rectangle(display_get_gui_width() - 96, 468, display_get_gui_width() - 32, 468+64,true)
 draw_sprite_stretched(Spr_tower_slow, 0, display_get_gui_width() - 96, 220 + (344-96), 64, 64)
 draw_rectangle(display_get_gui_width() - 96, 468, display_get_gui_width() - 32, 468+64,true)
-draw_text(display_get_gui_width() - 120, 468+64+32, "Slow \nCost: 50")
+draw_text(display_get_gui_width() - 120, 468+64+32, "Slow \nCost: 200")
 
 // Tower 5
 draw_rectangle(display_get_gui_width() - 96, 592, display_get_gui_width() - 32, 592+64,true)
 draw_sprite_stretched(Spr_tower_bomb, 0, display_get_gui_width() - 96, 220 + (468-96), 64, 64)
 draw_rectangle(display_get_gui_width() - 96, 592, display_get_gui_width() - 32, 592+64,true)
-draw_text(display_get_gui_width() - 120, 592+64+32, "Storm \nCost: 100")
+draw_text(display_get_gui_width() - 120, 592+64+32, "Storm \nCost: 150")
+
 //Next
 draw_rectangle(display_get_gui_width() - 96 - 16, display_get_gui_height() - 56, display_get_gui_width() - 16, display_get_gui_height() - 16,true)
 draw_text_transformed(display_get_gui_width() - 104, display_get_gui_height() - 38, "NEXT", 2, 2, 0)

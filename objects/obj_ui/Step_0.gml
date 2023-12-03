@@ -115,14 +115,14 @@ if(device_mouse_check_button_pressed(0, mb_left)
 && device_mouse_y_to_gui(0) > 334
 && device_mouse_y_to_gui(0) < 334 + 64) {
 	
-	if (global.Mythril < 100){
+	if (global.Mythril < 200){
 		return;
 		audio_play_sound(Sxf_cantbuy, 1, false);
 	}
 	
 
 
-	global.Mythril -= 100;
+	global.Mythril -= 200;
     audio_play_sound(Sxf_towerbuying, 1, false);
 	if(instance_exists(obj_Placeable_main))
 		obj_Placeable_main.can_be_seen = true;
@@ -146,14 +146,14 @@ if(device_mouse_check_button_pressed(0, mb_left)
 && device_mouse_y_to_gui(0) > 446
 && device_mouse_y_to_gui(0) < 510) {
 	
-	if (global.Mythril < 50){
+	if (global.Mythril < 200){
 		return;
 		audio_play_sound(Sxf_cantbuy, 1, false);
 	}
 	
 
 
-	global.Mythril -= 50;
+	global.Mythril -= 200;
     audio_play_sound(Sxf_towerbuying, 1, false);
 	if(instance_exists(obj_Placeable_main))
 		obj_Placeable_main.can_be_seen = true;
@@ -174,14 +174,14 @@ if(device_mouse_check_button_pressed(0, mb_left)
 && device_mouse_y_to_gui(0) > 592
 && device_mouse_y_to_gui(0) < 658) {
 	
-	if (global.Mythril < 100){
+	if (global.Mythril < 150){
 		return;
 		audio_play_sound(Sxf_cantbuy, 1, false);
 	}
 	
 
 
-	global.Mythril -= 50;
+	global.Mythril -= 150;
     audio_play_sound(Sxf_towerbuying, 1, false);
 	if(instance_exists(obj_Placeable_main))
 		obj_Placeable_main.can_be_seen = true;

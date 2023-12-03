@@ -3,7 +3,17 @@
 
 if(hit_points <= 0)
 	instance_destroy(self)
-else if(distance_to_object(instance_nearest(self.x, self.y, global.gal_target)) > 128) {
+
+//Slow Tower Check
+if(instance_exists(Obj_slow_tower)) {
+		
+	if(distance_to_object(Obj_slow_tower) < instance_nearest(self.x, self.y, Obj_slow_tower).radius) {
+		speed_current = speed_current * instance_nearest(self.x, self.y, Obj_slow_tower).speed_multiplier;	
+	}
+	
+}
+
+if(distance_to_object(instance_nearest(self.x, self.y, global.gal_target)) > 128) {
 	
 	move_towards_point(global.loc_target.x, global.loc_target.y, speed_current);
 	image_angle = point_direction(x, y, global.loc_target.x, global.loc_target.y) + 90;
@@ -44,4 +54,4 @@ else {
 	
 }
 
-
+speed_current = speed_original;

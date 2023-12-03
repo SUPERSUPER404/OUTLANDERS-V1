@@ -10,7 +10,10 @@ level = 1;
 
 hit_points = 100;
 
-upgrade_price = 250;
+num_spawned = 1;
+
+upgrade_price = 400;
+upgrade_cap = 3;
 bullet_damage = 1;
 
 rate_of_fire = 7;
@@ -28,7 +31,8 @@ upgrade = function(){
 	level += 1;
 	upgrade_price += upgrade_price 
 	//diff for each tower
-	rate_of_fire = rate_of_fire/2
+	num_spawned ++;
+	
 }
 
 if(instance_nearest(self.x, self.y, obj_platform) < 10) {
