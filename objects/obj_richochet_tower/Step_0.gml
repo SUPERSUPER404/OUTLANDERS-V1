@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-event_inherited();
 
 var instance_array = array_create(5, 0)
 
@@ -65,3 +64,5 @@ else {
   target = noone;
 
 }
+
+event_inherited();

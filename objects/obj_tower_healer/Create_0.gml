@@ -3,33 +3,44 @@
 
 image_speed = 0;
 
-name = "Richochet Tower"
+name = "defualt"
 level = 1;
-
-upgrade_price = 200;
-upgrade_cap = 4;
-bullet_damage = 10;
-
-rate_of_fire = 1;
-radius = 128;
 
 hit_points = 100;
 hit_points_max = hit_points;
 
+upgrade_price = 10;
+upgrade_cap = 10;
+bullet_damage = 1;
+
+rate_of_fire = 0.2;
+radius = 128;
+
 can_shoot = true;
 target = noone;
+is_selected = false;
 hover = false;
 alarm_set(1,1);
-
-richochet = 8
 
 
 upgrade = function(){
 	// same for each tower
 	level += 1;
-	upgrade_price = upgrade_price + upgrade_price
+	upgrade_price = upgrade_price + (upgrade_price/5)
 	//diff for each tower
-	richochet += 2
-	radius += 20
-	bullet_damage += 15
+	
+	
+	
 }
+
+if(instance_nearest(self.x, self.y, obj_platform) < 10) {
+	onPlanet = false
+}
+
+
+
+
+
+
+
+

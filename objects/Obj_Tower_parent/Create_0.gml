@@ -7,6 +7,7 @@ name = "defualt"
 level = 1;
 
 hit_points = 100;
+hit_points_max = hit_points;
 
 upgrade_price = 10;
 upgrade_cap = 10;

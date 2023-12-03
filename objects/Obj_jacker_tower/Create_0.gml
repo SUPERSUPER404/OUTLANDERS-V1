@@ -9,6 +9,7 @@ name = "Spawner"
 level = 1;
 
 hit_points = 100;
+hit_points_max = hit_points;
 
 num_spawned = 1;
 

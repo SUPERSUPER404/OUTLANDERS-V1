@@ -10,6 +10,9 @@ upgrade_price = 300;
 upgrade_cap = 3;
 speed_multiplier = 0.8
 
+hit_points = 100;
+hit_points_max = hit_points;
+
 bullet_damage = global.slow;
 rate_of_fire = 100;
 radius = 250;
