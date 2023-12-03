@@ -50,7 +50,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.108",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"obj_UI_Mouse","path":"objects/obj_UI_Mouse/obj_UI_Mouse.yy",},},
@@ -88,6 +88,7 @@
     {"id":{"name":"enemy_instance_most_hp","path":"scripts/enemy_instance_most_hp/enemy_instance_most_hp.yy",},},
     {"id":{"name":"bg_new","path":"sprites/bg_new/bg_new.yy",},},
     {"id":{"name":"obj_ui","path":"objects/obj_ui/obj_ui.yy",},},
+    {"id":{"name":"Rm_difficulty_select","path":"rooms/Rm_difficulty_select/Rm_difficulty_select.yy",},},
     {"id":{"name":"obj_moon_green","path":"objects/obj_moon_green/obj_moon_green.yy",},},
     {"id":{"name":"obj_asteroid_spawner","path":"objects/obj_asteroid_spawner/obj_asteroid_spawner.yy",},},
     {"id":{"name":"obj_Placeable_off_planet","path":"objects/obj_Placeable_off_planet/obj_Placeable_off_planet.yy",},},
@@ -197,6 +198,7 @@
     {"id":{"name":"Path30","path":"paths/Path30/Path30.yy",},},
     {"id":{"name":"obj_ui_upgrades","path":"objects/obj_ui_upgrades/obj_ui_upgrades.yy",},},
     {"id":{"name":"Rm_GameOver","path":"rooms/Rm_GameOver/Rm_GameOver.yy",},},
+    {"id":{"name":"obj_difficulty_UI","path":"objects/obj_difficulty_UI/obj_difficulty_UI.yy",},},
     {"id":{"name":"Spr_slow_feild","path":"sprites/Spr_slow_feild/Spr_slow_feild.yy",},},
     {"id":{"name":"Path37","path":"paths/Path37/Path37.yy",},},
     {"id":{"name":"Path26","path":"paths/Path26/Path26.yy",},},
@@ -221,10 +223,10 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"Rm_Title","path":"rooms/Rm_Title/Rm_Title.yy",},},
+    {"roomId":{"name":"Rm_difficulty_select","path":"rooms/Rm_difficulty_select/Rm_difficulty_select.yy",},},
     {"roomId":{"name":"Rm_mainroom","path":"rooms/Rm_mainroom/Rm_mainroom.yy",},},
     {"roomId":{"name":"Rm_GameOver","path":"rooms/Rm_GameOver/Rm_GameOver.yy",},},
   ],
-  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],

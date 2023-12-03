@@ -9,8 +9,6 @@ hit_points_max = hit_points;
 speed_current = random_range(0.7, 1.2);
 speed_original = speed_current;
 
-//upgrade for slow tower maybe
-speed_timer = 4*room_speed
 
 hurt = function(_amount = 100){
 	hit_points -= _amount;
@@ -23,7 +21,7 @@ hurt = function(_amount = 100){
 
 slow = function(){
 
-	speed_current = global.slow;
+	speed_current = global.slow
 
 	
 }

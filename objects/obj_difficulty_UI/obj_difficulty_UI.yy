@@ -1,16 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_title_ui",
+  "name": "obj_difficulty_UI",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":32,"eventType":5,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Title",
-    "path": "folders/Objects/User Interface/Title.yy",
+    "name": "User Interface",
+    "path": "folders/Objects/User Interface.yy",
   },
   "parentObjectId": null,
   "persistent": false,

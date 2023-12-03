@@ -249,11 +249,6 @@ if(device_mouse_check_button_pressed(0, mb_left)
 }
 
 
-
-
-
-
-
 if(global.life <= 0){
 	audio_play_sound(Sxf_gameover, 1, false);
 	room_restart();

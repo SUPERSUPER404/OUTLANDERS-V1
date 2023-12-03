@@ -8,7 +8,7 @@ name = "Mine"
 level = 1;
 
 upgrade_price = 250;
-bullet_damage = 25;
+bullet_damage = 30;
 
 rate_of_fire = 0.2;
 radius = 0;

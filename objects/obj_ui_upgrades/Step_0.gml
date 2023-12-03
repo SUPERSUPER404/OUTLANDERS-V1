@@ -30,5 +30,7 @@ if(device_mouse_check_button_pressed(0, mb_left)
 		towers_select(global.selected_tower);
 		audio_play_sound(Sxf_upgrade, 1, false);
 	}
+	if(global.selected_tower.level == global.selected_tower.upgrade_cap)
+		tower_upgrade_cost = "MAX LEVEL";
 
 }

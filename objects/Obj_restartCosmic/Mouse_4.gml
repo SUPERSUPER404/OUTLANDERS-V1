@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-global.Mythril = 50;
+global.Mythril = 75
 global.life = 1;
 
 global.timer = 0;
