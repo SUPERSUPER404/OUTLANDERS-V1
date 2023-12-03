@@ -23,13 +23,12 @@ hover = false;
 alarm_set(1,1);
 
 
-upgrade = function(){
+upgrade = function() {
+	
 	// same for each tower
 	level += 1;
 	upgrade_price = upgrade_price + (upgrade_price/5)
 	//diff for each tower
-	
-	
 	
 }
 

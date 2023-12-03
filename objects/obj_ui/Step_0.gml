@@ -3,7 +3,8 @@
 canChangeShop = true
 
 if(global.shop_number == 2) {
-	//spawner
+	
+//Mind-Bender
 	if(device_mouse_check_button_pressed(0, mb_left) 
 && device_mouse_x_to_gui(0) > 1240 
 && device_mouse_x_to_gui(0) < 1340
@@ -23,9 +24,34 @@ if(global.shop_number == 2) {
 	if(instance_exists(obj_Placeable_off_planet))
 		obj_Placeable_off_planet.can_be_seen = true;
 
-	obj_UI_Mouse.selected_sprite = Spr_jacker;
+	obj_UI_Mouse.selected_sprite = spr_tower_Mindbender;
 	
 	global.instance_tower_to_build = Obj_jacker_tower;	
+	
+}
+
+// Healer
+if(device_mouse_check_button_pressed(0, mb_left) 
+&& device_mouse_x_to_gui(0) > 1240 
+&& device_mouse_x_to_gui(0) < 1340
+&& device_mouse_y_to_gui(0) > 220
+&& device_mouse_y_to_gui(0) < 286) {
+	
+	if (global.Mythril < 150){
+		return;
+		audio_play_sound(Sxf_cantbuy, 1, false);
+	}
+	
+
+
+	global.Mythril -= 150;
+    audio_play_sound(Sxf_towerbuying, 1, false);
+	if(instance_exists(obj_Placeable_main))
+		obj_Placeable_main.can_be_seen = true;
+
+	obj_UI_Mouse.selected_sprite = spr_tower_healer;
+	
+	global.instance_tower_to_build = obj_tower_healer;
 	
 }
 

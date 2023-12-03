@@ -94,7 +94,7 @@
     {"id":{"name":"obj_moon_blue","path":"objects/obj_moon_blue/obj_moon_blue.yy",},},
     {"id":{"name":"Sxf_slow","path":"sounds/Sxf_slow/Sxf_slow.yy",},},
     {"id":{"name":"obj_tower_healer","path":"objects/obj_tower_healer/obj_tower_healer.yy",},},
-    {"id":{"name":"Spr_jacker","path":"sprites/Spr_jacker/Spr_jacker.yy",},},
+    {"id":{"name":"spr_tower_Mindbender","path":"sprites/spr_tower_Mindbender/spr_tower_Mindbender.yy",},},
     {"id":{"name":"Path3","path":"paths/Path3/Path3.yy",},},
     {"id":{"name":"Path36","path":"paths/Path36/Path36.yy",},},
     {"id":{"name":"Obj_restartMedium","path":"objects/Obj_restartMedium/Obj_restartMedium.yy",},},

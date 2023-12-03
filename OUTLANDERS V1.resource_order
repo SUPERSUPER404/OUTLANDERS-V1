@@ -70,7 +70,7 @@
     {"name":"obj_moon_blue","order":4,"path":"objects/obj_moon_blue/obj_moon_blue.yy",},
     {"name":"Sxf_slow","order":17,"path":"sounds/Sxf_slow/Sxf_slow.yy",},
     {"name":"obj_tower_healer","order":9,"path":"objects/obj_tower_healer/obj_tower_healer.yy",},
-    {"name":"Spr_jacker","order":7,"path":"sprites/Spr_jacker/Spr_jacker.yy",},
+    {"name":"spr_tower_Mindbender","order":7,"path":"sprites/spr_tower_Mindbender/spr_tower_Mindbender.yy",},
     {"name":"Path3","order":22,"path":"paths/Path3/Path3.yy",},
     {"name":"Path36","order":29,"path":"paths/Path36/Path36.yy",},
     {"name":"Obj_restartMedium","order":9,"path":"objects/Obj_restartMedium/Obj_restartMedium.yy",},

@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Spr_jacker",
-    "path": "sprites/Spr_jacker/Spr_jacker.yy",
+    "name": "spr_tower_Mindbender",
+    "path": "sprites/spr_tower_Mindbender/spr_tower_Mindbender.yy",
   },
   "spriteMaskId": null,
   "visible": true,
