@@ -7,6 +7,7 @@ if (self.x < room_width / 2) {
     // Spawn a new galactor and update the current sprite index
     var galactor = instance_create_layer(-100, irandom_range(room_height / 2 - 256, room_height / 2 + 256), "Instances", obj_galactor);
     galactor.hspeed = 20;
+	galactor.image_angle += 90;
 
     // Choose the appropriate sprite based on the currentUFOIndex
     switch (currentUFOIndex) {
@@ -29,8 +30,8 @@ if (self.x < room_width / 2) {
     // Spawn a new galactor and update the current sprite index
     var galactor = instance_create_layer(room_width + 100, irandom_range(room_height / 2 - 256, room_height / 2 + 256), "Instances", obj_galactor);
     galactor.hspeed = -20;
-    galactor.image_angle += 180;
     galactor.image_index += 1;
+	galactor.image_angle += 90;
 
     // Choose the appropriate sprite based on the currentUFOIndex
     switch (currentUFOIndex) {
@@ -53,9 +54,9 @@ if (self.x < room_width / 2) {
 
 // Set the alarm based on the global.year
 if (global.year > 18) {
-    alarm[0] = room_speed * (20 - (global.year - 3));
+    alarm[0] = room_speed * (35 - (global.year - 3));
 } else {
-    alarm[0] = room_speed * 5;
+    alarm[0] = room_speed * 30;
 }
 
 audio_play_sound(Sxf_shopmoving, 1, false);

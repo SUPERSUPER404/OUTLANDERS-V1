@@ -13,3 +13,4 @@ event_inherited();
 hit_points = 500;
 hit_points_max = 500;
 
+started_spawning = false
