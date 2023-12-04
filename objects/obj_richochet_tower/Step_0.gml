@@ -80,3 +80,10 @@ else {
 
 array_delete(instance_array, all, 1)
 event_inherited();
+
+if(wave != global.year) {
+		
+	bullet_damage += 10;
+	wave ++;
+	
+}

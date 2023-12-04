@@ -22,7 +22,7 @@ target = noone;
 hover = false;
 alarm_set(1,1);
 
-richochet = 6
+richochet = 4
 
 
 upgrade = function(){

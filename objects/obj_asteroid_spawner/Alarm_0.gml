@@ -3,4 +3,4 @@
 
 instance_create_layer(irandom_range(128, 1024), -100, "Instances", obj_asteroid);
 
-alarm[0] = room_speed * 120;
+alarm[0] = room_speed * 45;
