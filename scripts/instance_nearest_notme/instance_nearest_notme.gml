@@ -9,26 +9,25 @@ obj = argument[2];
 array = argument[4];
 instance = argument[3];
 nearest = noone;
-dist = 1;
+closest = noone;
+dist = obj_richochet_tower.radius * 1.25;
 
-for (ii=0; ii<instance_number(obj); ii+=1) {
-	
-    var o, d;
-    o = instance_find(obj, ii);
-    d = point_distance(xx, yy, o.x, o.y);
-    if (d > 32 && o != id && !array_contains(array, ii) && d <= obj_richochet_tower.radius * 1.5) { 
-		if (nearest == noone || d < dist) { 
-			nearest = o; dist = d; 
-			array[i] = ii 
-			} 
+var _list = ds_list_create();
+var _num = collision_circle_list(x, y, obj_richochet_tower.radius * 1.25, obj_enemy, false, true, _list, false);
+if (_num > 0)
+{
+    for (var j = 0; j < _num; ++j;)
+    {
+		
+		if(point_distance(xx, yy, _list[| j].x, _list[| j].y) < dist && point_distance(xx, yy, _list[| j].x, _list[| j].y) > 0 && !array_contains(array, _list[| j]) && _list[| j].object_index != obj_galactor) {
+			closest = _list[| j];
+			dist = point_distance(xx, xx, _list[| j].x, _list[| j].y);
+			array[i] = _list[| j];
 		}
-  }
-	
-if(nearest != noone) {
-	return nearest;
+	}
+	nearest = closest
 }
-else {
-	return noone;	
-  }
 
+return nearest;
+ds_list_destroy(_list);
 }

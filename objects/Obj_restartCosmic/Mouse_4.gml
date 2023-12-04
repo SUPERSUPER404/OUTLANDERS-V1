@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-global.Mythril = 50;
+global.Mythril = 150;
 global.life = 1;
 
 global.timer = 0;
@@ -15,5 +15,5 @@ global.slow = 2;
 
 audio_stop_sound(MainGameTheme);
 
-room_goto_previous()
+room_goto(Rm_mainroom)
 

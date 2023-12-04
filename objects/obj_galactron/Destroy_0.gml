@@ -1,9 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+global.score += 2
 
-draw_self();
-draw_set_color(c_black)
-draw_text(x-14,y-7,150)
-draw_set_color(c_white)
+
+
+
+
+
+
+
+
 

@@ -2,7 +2,7 @@
 
 
 target = noone
-wave = (50)*(global.timer/60) + 100
+wave = (25)*(global.year) + 100
 hit_points = wave
 hit_points_max = hit_points;
 
@@ -16,8 +16,7 @@ hurt = function(_amount = 100){
 	hit_points -= _amount;
 	
 	if(hit_points <= 0){
-	instance_destroy();
-	global.score += 1 
+		instance_destroy(self);
 	}
 }
 

@@ -5,7 +5,7 @@ instance_create_layer(-200, -200, "Instances", obj_nebuloid_spawner);
 
 instance_create_layer(-200, -200, "Instances", obj_galactron_spawner);
 
-
+alarm[3] = room_speed * 300
 
 
 

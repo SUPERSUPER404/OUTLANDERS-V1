@@ -8,7 +8,8 @@ level = 1;
 
 upgrade_price = 200;
 upgrade_cap = 4;
-bullet_damage = 50 + (global.year * 10);
+wave = global.year;
+bullet_damage = 50 + (wave * 10);
 
 rate_of_fire = 1;
 radius = 192;

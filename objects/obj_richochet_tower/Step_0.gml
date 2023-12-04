@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var instance_array = array_create(5, 0)
+var instance_array = array_create(richochet, noone)
 
 nextTarget = noone
 
@@ -34,10 +34,7 @@ else {
 				target.hit_points -= bullet_damage
 		
 				nextTarget = instance_nearest_notme(self.x, self.y, obj_enemy, target, instance_array, i)
-				
-				if(nextTarget == noone) {
-					break;	
-				}
+				show_debug_message(nextTarget);
 			
 			}
 			
@@ -81,4 +78,5 @@ else {
 
 }
 
+array_delete(instance_array, all, 1)
 event_inherited();

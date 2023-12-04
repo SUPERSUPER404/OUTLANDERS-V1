@@ -3,5 +3,7 @@
 
 
 draw_self();
-draw_text(x-16,y,100)
+draw_set_color(c_black)
+draw_text(x-14,y-7,100)
+draw_set_color(c_white)
 

@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_placable",
-    "path": "sprites/spr_placable/spr_placable.yy",
+    "name": "spr_placeable",
+    "path": "sprites/spr_placeable/spr_placeable.yy",
   },
   "spriteMaskId": null,
   "visible": true,

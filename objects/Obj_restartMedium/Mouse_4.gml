@@ -15,5 +15,5 @@ global.slow = 2;
 
 audio_stop_sound(MainGameTheme);
 
-room_goto_previous()
+room_goto(Rm_mainroom)
 

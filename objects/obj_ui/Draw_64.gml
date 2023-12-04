@@ -29,7 +29,7 @@ set_draw(1, c_white, function() {
 set_draw(1, c_white, function() {
 	 align_set(fa_left, fa_middle);
 	 
-	 draw_text_ext_transformed(608 , 8 , "Live " + string(global.life), 0, 200, 2, 2, 0)
+	 draw_text_ext_transformed(608 , 8 , "Life " + string(global.life), 0, 200, 2, 2, 0)
 	 
 	 });
 

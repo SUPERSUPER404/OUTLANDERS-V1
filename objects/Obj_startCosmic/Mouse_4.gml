@@ -4,4 +4,4 @@ global.Mythril = 150;
 global.life = 1;
 audio_play_sound(Sxf_start, 1, false);
 
-room_goto_next()
+room_goto(Rm_mainroom)
