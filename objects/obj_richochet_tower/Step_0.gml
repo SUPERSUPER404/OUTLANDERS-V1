@@ -42,6 +42,7 @@ else {
 			}
 			
 			else {
+				
 				instance_array[i] = instance_number(target)
 				
 				nextTarget = instance_nearest_notme(target.x, target.y, obj_enemy, target, instance_array, i)

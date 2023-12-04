@@ -3,6 +3,8 @@
 
 dir = irandom_range(1, 2);
 
+hit = false
+
 hit_points = 500 + (50 * global.year);
 hit_points_max = hit_points;
 

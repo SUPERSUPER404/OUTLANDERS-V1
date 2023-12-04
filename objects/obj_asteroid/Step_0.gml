@@ -11,3 +11,5 @@ if(self.y > room_height + 100) {
 }
 
 
+if(hit_points <= 0)
+	instance_destroy(self);
