@@ -50,7 +50,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.108",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"obj_UI_Mouse","path":"objects/obj_UI_Mouse/obj_UI_Mouse.yy",},},
@@ -208,8 +208,11 @@
     {"id":{"name":"spr_moon_blue","path":"sprites/spr_moon_blue/spr_moon_blue.yy",},},
     {"id":{"name":"obj_title_ui","path":"objects/obj_title_ui/obj_title_ui.yy",},},
     {"id":{"name":"Spr_player_lazer","path":"sprites/Spr_player_lazer/Spr_player_lazer.yy",},},
+    {"id":{"name":"spr_galactor3","path":"sprites/spr_galactor3/spr_galactor3.yy",},},
     {"id":{"name":"spr_asteroid_effect","path":"sprites/spr_asteroid_effect/spr_asteroid_effect.yy",},},
     {"id":{"name":"Path18","path":"paths/Path18/Path18.yy",},},
+    {"id":{"name":"spr_galactor2","path":"sprites/spr_galactor2/spr_galactor2.yy",},},
+    {"id":{"name":"spr_galactor4","path":"sprites/spr_galactor4/spr_galactor4.yy",},},
     {"id":{"name":"Spr_tower_bomb","path":"sprites/Spr_tower_bomb/Spr_tower_bomb.yy",},},
     {"id":{"name":"Spr_moon_other","path":"sprites/Spr_moon_other/Spr_moon_other.yy",},},
     {"id":{"name":"Spr_tower_slow","path":"sprites/Spr_tower_slow/Spr_tower_slow.yy",},},
@@ -227,7 +230,6 @@
     {"roomId":{"name":"Rm_mainroom","path":"rooms/Rm_mainroom/Rm_mainroom.yy",},},
     {"roomId":{"name":"Rm_GameOver","path":"rooms/Rm_GameOver/Rm_GameOver.yy",},},
   ],
-  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],
