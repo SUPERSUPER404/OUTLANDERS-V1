@@ -14,10 +14,10 @@ else {
 
 
 if(global.year > 18) {
-	alarm[0] = room_speed * (20 - (global.year - 3));
+	alarm[0] = room_speed * (35 - (global.year - 3));
 }
 else {
-	alarm[0] = room_speed * 5;
+	alarm[0] = room_speed * 30;
 }
-audio_play_sound(Sxf_shopmoving, 1, false);
+audio_play_sound(Sxf_bigguyspawned, 1, false);
 
