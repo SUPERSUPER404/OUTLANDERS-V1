@@ -3,7 +3,7 @@
 
 image_speed = 0;
 
-name = "defualt"
+name = "Healer"
 level = 1;
 
 hit_points = 100;
