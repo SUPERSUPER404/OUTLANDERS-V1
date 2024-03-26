@@ -1,3 +1,3 @@
-if(can_be_seen == true) {
-draw_self();	
-}
+//if(can_be_seen == true) {
+draw_self()
+//}
